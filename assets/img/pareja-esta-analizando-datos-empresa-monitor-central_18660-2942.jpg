@@ -1,0 +1,1113 @@
+/Text>
+    </Control>
+	<Control ClassName="MiniTooltip" ControlType="11">
+      <Text><![CDATA[Уменьшить]]></Text>
+    </Control>
+	<Control ClassName="CloseTooltip" ControlType="11">
+      <Text><![CDATA[Закрыть]]></Text>
+    </Control>
+	<Control ClassName="RemoveTooltip" ControlType="11">
+      <Text><![CDATA[Удалить]]></Text>
+    </Control>
+	<Control ClassName="AccountTooltip" ControlType="11">
+      <Text><![CDATA[Аккаунт]]></Text>
+    </Control>	
+    <Control ClassName="OpenText" ControlType="11">
+      <Text><![CDATA[Открыть]]></Text>
+    </Control>
+	<Control ClassName="VideoReparing" ControlType="11">
+      <Text><![CDATA[Восстановление видео. Пожалуйста, не выполняйте никаких других операций до завершения восстановления.]]></Text>
+    </Control> 
+	<Control ClassName="PhotoReparing" ControlType="11">
+      <Text><![CDATA[Repairing photos. Please don't do any other operation until the repair is completed.]]></Text>
+    </Control>	
+    <Control ClassName="SplashScreenLoading" ControlType="11">
+      <Text><![CDATA[Загрузка…]]></Text>
+    </Control>   
+    <Control ClassName="VideoRepairAddFrame1" ControlType="11">
+      <Text><![CDATA[Добавьте видео и начните восстановление]]></Text>
+    </Control> 
+	<Control ClassName="PhotoRepairAddFrame1" ControlType="11">
+      <Text><![CDATA[Add photo(s) and start repairing]]></Text>
+    </Control>	
+	<Control ClassName="VideoRepairAddFrame2" ControlType="11">
+      <Text><![CDATA[Добавить]]></Text>
+    </Control>	
+	
+	<Control ClassName="UploadProgressFrame1" ControlType="11">
+      <Text><![CDATA[Добавление]]></Text>
+    </Control> 
+	<Control ClassName="UploadProgressFrame2" ControlType="11">
+      <Text><![CDATA[Добавление файла(ов):]]></Text>
+    </Control> 
+	<Control ClassName="UploadProgressFrame3" ControlType="13">
+      <Text><![CDATA[Стоп]]></Text>
+    </Control>
+	<Control ClassName="UploadProgressFrame4" ControlType="11">
+      <Text><![CDATA[%1 видео уже есть в списке. Эти видео будут пропущены.]]></Text>
+    </Control> 
+	<Control ClassName="UploadProgressFrame4_1" ControlType="11">
+      <Text><![CDATA[%1 photo(s) are already on the list! These photos will be skipped.]]></Text>
+    </Control> 
+	<Control ClassName="UploadProgressFrame5" ControlType="11">
+      <Text><![CDATA[Одно видео уже есть в списке. Оно будет пропущено.]]></Text>
+    </Control>
+	<Control ClassName="UploadProgressFrame5_1" ControlType="11">
+      <Text><![CDATA[One photo is already on the list! It will be skipped.]]></Text>
+    </Control>
+	<Control ClassName="PhotoRepairAddDesc" ControlType="11">
+      <Text><![CDATA[Some files have multiple repair results, you can preview or save them to your computer to choose the best one.]]></Text>
+    </Control>	
+	
+	
+	<Control ClassName="CommonTextDesc1" ControlType="11">
+      <Text><![CDATA[Отсутствует]]></Text>
+    </Control> 	
+	<Control ClassName="CommonTextDesc2" ControlType="11">
+      <Text><![CDATA[Восстановление]]></Text>
+    </Control> 
+	<Control ClassName="CommonTextDesc3" ControlType="11">
+      <Text><![CDATA[Ожидание]]></Text>
+    </Control>
+	<Control ClassName="CommonTextDesc4" ControlType="11">
+      <Text><![CDATA[Успешно]]></Text>
+    </Control>
+	<Control ClassName="CommonTextDesc4_1" ControlType="11">
+      <Text><![CDATA[Completed]]></Text>
+    </Control>
+	<Control ClassName="CommonTextDesc5" ControlType="11">
+      <Text><![CDATA[Предпросмотр]]></Text>
+    </Control>
+	<Control ClassName="CommonTextDesc6" ControlType="11">
+      <Text><![CDATA[Сохранить]]></Text>
+    </Control>
+	<Control ClassName="CommonTextDesc7" ControlType="11">
+      <Text><![CDATA[Не удалось]]></Text>
+    </Control>
+	<Control ClassName="CommonTextDesc7_1" ControlType="11">
+      <Text><![CDATA[Файл не существует и не может быть исправлен.]]></Text>
+    </Control>
+	<Control ClassName="CommonTextDesc8" ControlType="11">
+      <Text><![CDATA[Расширенное Восстановление]]></Text>
+    </Control>
+	<Control ClassName="CommonTextDesc9" ControlType="11">
+      <Text><![CDATA[Отменено]]></Text>
+    </Control>
+	<Control ClassName="CommonTextDesc10" ControlType="11">
+      <Text><![CDATA[Расширенное Восстановление]]></Text>
+    </Control>	
+	<Control ClassName="CommonTextDesc11" ControlType="11">
+      <Text><![CDATA[Изменить Образец Видео]]></Text>
+    </Control>	
+	<Control ClassName="CommonTextDesc11_1" ControlType="11">
+      <Text><![CDATA[Change Sample Photo]]></Text>
+    </Control>	
+    <Control ClassName="VideoRepairBack" ControlType="11">
+      <Text><![CDATA[Результат восстановления не будет сохранен, если вы выйдете сейчас. Вы уверены, что хотите выйти?]]></Text>
+    </Control>
+	<Control ClassName="ExitPrograme" ControlType="11">
+      <Text><![CDATA[Закрыть программу?<br><br><br>Если закрыть программу сейчас, результаты исправления не сохранятся.]]></Text>
+    </Control>
+	
+	 <Control ClassName="TrialVideoLine1" ControlType="11">
+      <Text><![CDATA[В бесплатной версии можно просмотреть только 30 секунд видео, 5 скриншотов для справки. ]]></Text>
+    </Control> 
+	 <Control ClassName="TrialVideoLine2" ControlType="11">
+      <Text><![CDATA[Вы можете нажать "Сохранить", чтобы приобрести программное обеспечение для полного предварительного просмотра.]]></Text>
+    </Control> 
+	
+  </Dialog>
+  <Dialog ClassName="VideoRepair"> 
+	<Control ClassName="NoFileSaveDesc_1" ControlType="11">
+      <Text><![CDATA[All photos repair failed, no files to save.]]></Text>
+    </Control>
+    <Control ClassName="SaveSuccessDesc_1" ControlType="11">
+      <Text><![CDATA[%1 file(s) saved successfully! (the photo that failed to repair will not be saved).]]></Text>
+    </Control>
+    <Control ClassName="SaveFailDesc_1" ControlType="11">
+      <Text><![CDATA[%1 file(s) saved successfully, %2 file(s) failed to save (the photo that failed or canceled to repair will not be saved).]]></Text>
+    </Control>
+    <Control ClassName="SaveAllFailDesc_1" ControlType="11">
+      <Text><![CDATA[%1 file(s) save failed! (the photo that failed to repair will not be saved).]]></Text>
+    </Control>
+    <Control ClassName="VideoRepairDesc1_1" ControlType="11">
+      <Text><![CDATA[Add Corrupted Photo]]></Text>
+    </Control>
+    <Control ClassName="ButtonRemoveDescText_1" ControlType="11">
+      <Text><![CDATA[This operation will remove all photo(s). Are you sure you want to go back to the previous screen?]]></Text>
+    </Control>
+    <Control ClassName="ButtonBackDescTex_1" ControlType="11">
+      <Text><![CDATA[<b>Are you sure you want to return to the previous screen?</b><br><br><br> This operation will clear all the repaired result(s). It's recommended to save all the repaired photo(s) before returning.]]></Text>
+    </Control>
+    <Control ClassName="StopRepairDesc1" ControlType="11">
+      <Text><![CDATA[Are you sure you want to cancel the repair? Unrepaired photo(s) will not be repaired.]]></Text>
+    </Control>
+    <Control ClassName="StopAdvanceRepairDesc1" ControlType="11">
+      <Text><![CDATA[Are you sure you want to cancel the Advanced Repair mode? Unrepaired photo(s) will not be repaired.]]></Text>
+    </Control>
+    <Control ClassName="SpaceFreeErrorDesc1_1" ControlType="11">
+      <Text><![CDATA[<b>Not enough space!</b><br><br><br>More space needed than the original file size(s) to save the repaired photo(s). Please organize your computer space and try again.]]></Text>
+    </Control>
+    <Control ClassName="SpaceFreeErrorDesc2_1" ControlType="11">
+      <Text><![CDATA[<b>Not enough space!</b><br><br><br>To save the repaired photo(s), more space needed than the original file(s). Please reselect another disk to save.]]></Text>
+    </Control>
+    <Control ClassName="RepairErrorDesc1_1" ControlType="11">
+      <Text><![CDATA[%1 video(s) repaired successfully, and %2 photo(s) failed to repair. Try <b>Advanced Repair</b> for the failed photo(s).]]></Text>     
+    </Control>
+    <Control ClassName="RepairErrorDesc2_1" ControlType="11">
+      <Text><![CDATA[%1 photo(s) repaired successfully, %2 photo(s)  failed to repair, and %3 photo(s) were not repaired. Try <b>Advanced Repair</b> for the failed photo(s).]]></Text>	  
+    </Control>
+    <Control ClassName="RepairComplterDesc_1" ControlType="11">
+      <Text><![CDATA[%1 photo(s) repaired successfully. Preview and save the photo(s) now.]]></Text>
+    </Control>
+    <Control ClassName="AdvanceRepairComplterDesc_1" ControlType="11">
+      <Text><![CDATA[%1 photo(s) repaired successfully. Preview and save the photo(s) now.]]></Text>
+    </Control>
+    <Control ClassName="AdvanceRepairErrorDesc1_1" ControlType="11">
+      <Text><![CDATA[%1 photo(s) repaired successfully, and %2 photo(s) repair failed. Please change the sample photo.]]></Text>	                  
+    </Control>
+    <Control ClassName="AdvanceRepairErrorDesc2_1" ControlType="11">
+      <Text><![CDATA[%1 photo(s) repaired successfully, %2 photo(s) failed to repair, and %3 photo(s) were not repaired. Please change the sample photo and repair it again.]]></Text>
+    </Control>
+	
+    <Control ClassName="VideoPreviewLimitDesc" ControlType="11">
+      <Text><![CDATA[Предварительный просмотр ограничен 30 секундами, сохраните на компьютер для полного предварительного просмотра.]]></Text>
+    </Control>    
+    <Control ClassName="NoFileSaveDesc" ControlType="11">
+      <Text><![CDATA[Все видео восстановить не удалось, файлы для сохранения отсутствуют.]]></Text>
+    </Control>  
+	<Control ClassName="SaveSuccessDesc" ControlType="11">
+      <Text><![CDATA[%1 файл(а,ов) успешно сохранен(ы). (видео, которое не удалось восстановить, не будет сохранено.)]]></Text>
+    </Control>
+	<Control ClassName="SaveFailDesc" ControlType="11">
+      <Text><![CDATA[%1 файл(а,ов) успешно сохранены,% 2 файл(а,ов) не удалось сохранить. (видео, которое не удалось восстановить, не будет сохранено.)]]></Text>
+    </Control>
+    <Control ClassName="SaveAllFailDesc" ControlType="11">
+      <Text><![CDATA[%1 файл(а,ов) не удалось сохранить. (видео, которое не удалось восстановить, не будет сохранено.)]]></Text>
+    </Control>	
+    <Control ClassName="VideoRepairDesc5" ControlType="11">
+      <Text><![CDATA[Пожалуйста, добавьте видео, чтобы начать восстановление.]]></Text>
+    </Control>	
+	<Control ClassName="BtnRegister" ControlType="13">
+      <Text><![CDATA[Активировать]]></Text>
+    </Control>		
+	<Control ClassName="BtnRegister1" ControlType="13">
+      <Text><![CDATA[Аккаунт]]></Text>
+    </Control>	
+	<Control ClassName="VideoRepairTitle" ControlType="11">
+      <Text><![CDATA[Wondershare Repairit]]></Text>
+    </Control>
+	<Control ClassName="VideoRepairDesc1" ControlType="11">
+      <Text><![CDATA[Добавить Поврежденное Видео]]></Text>
+    </Control>
+	<Control ClassName="VideoRepairDesc2" ControlType="11">
+      <Text><![CDATA[Восстановить Видео]]></Text>
+    </Control>
+	<Control ClassName="VideoRepairDesc3" ControlType="11">
+      <Text><![CDATA[Сохранить Видео]]></Text>
+    </Control>
+	<Control ClassName="VideoRepairDesc4" ControlType="11">
+      <Text><![CDATA[Добавьте видео и начните восстановление]]></Text>
+    </Control>
+	<Control ClassName="ButtonAddDesc" ControlType="11">
+      <Text><![CDATA[Добавить]]></Text>
+    </Control>
+	<Control ClassName="ButtonRemoveDesc" ControlType="11">
+      <Text><![CDATA[Удалить Все]]></Text>
+    </Control>
+	<Control ClassName="ButtonRemoveDescText" ControlType="11">
+      <Text><![CDATA[Удалить все видео?]]></Text>
+    </Control>
+	<Control ClassName="ButtonExportDesc" ControlType="11">
+      <Text><![CDATA[Сохранить Все]]></Text>
+    </Control>
+	<Control ClassName="ButtonRepairDesc" ControlType="11">
+      <Text><![CDATA[Восстановить]]></Text>
+    </Control>
+	<Control ClassName="ButtonCancelDesc" ControlType="11">
+      <Text><![CDATA[Отменить Все]]></Text>
+    </Control>
+    
+    <Control ClassName="ButtonBackDesc" ControlType="11">
+      <Text><![CDATA[Назад]]></Text>
+    </Control>
+    <Control ClassName="ButtonBackDescText" ControlType="11">
+      <Text><![CDATA[<b>Вы уверены, что хотите вернуться к предыдущему экрану? </b><br><br><br>Внимание! В результате все видео будут удалены.]]></Text>
+    </Control>
+	
+	<Control ClassName="TableTitle1" ControlType="11">
+      <Text><![CDATA[Имя Файла]]></Text>
+    </Control>
+	<Control ClassName="TableTitle2" ControlType="11">
+      <Text><![CDATA[Путь к Файлу]]></Text>
+    </Control>
+	<Control ClassName="TableTitle3" ControlType="11">
+      <Text><![CDATA[Размер Файла]]></Text>
+    </Control>
+	<Control ClassName="TableTitle4" ControlType="11">
+      <Text><![CDATA[Дата Создания]]></Text>
+    </Control>
+	<Control ClassName="TableTitle5" ControlType="11">
+      <Text><![CDATA[Операция]]></Text>
+    </Control>
+	
+	<Control ClassName="StopRepairDesc" ControlType="11">
+      <Text><![CDATA[Вы уверены, что хотите отменить восстановление? Неисправные видео не будут восстановлены.]]></Text>
+    </Control>
+	<Control ClassName="StopAdvanceRepairDesc" ControlType="11">
+      <Text><![CDATA[Вы уверены, что хотите выйти из режима Расширенного Восстановления? Неисправные видео не будут восстановлены.]]></Text>
+    </Control>	
+	<Control ClassName="SpaceFreeErrorDesc1" ControlType="11">
+      <Text><![CDATA[<b>Недостаточно места.</b><br><br><br>Чтобы сохранить восстановленные видео, требуется больше места, чем исходный файл(ы). Пожалуйста, урегулируйте память своего компьютера и попробуйте еще раз.]]></Text>
+    </Control>
+	<Control ClassName="SpaceFreeErrorDesc2" ControlType="11">
+      <Text><![CDATA[<b>Недостаточно места. </b><br><br><br>Чтобы сохранить восстановленные видео, требуется больше места, чем исходный файл(ы). Выберите другой диск для сохранения.]]></Text>
+    </Control>
+	<Control ClassName="RepairErrorDesc1" ControlType="11">
+      <Text><![CDATA[%1 видео успешно восстановлены, а %2 видео не удалось восстановить. Попробуйте <b>Рассширенное Восстановление</b> для неисправных видео.]]></Text>
+    </Control>
+    <Control ClassName="RepairErrorDesc2" ControlType="11">
+      <Text><![CDATA[%1 видео успешно восстановлены, %2 видео не удалось починить, а %3 видео не были восстановлены. Попробуйте <b>Рассширенное Восстановление</b> для неисправных видео.]]></Text>	                    
+    </Control>	
+	<Control ClassName="RepairComplterDesc" ControlType="11">
+      <Text><![CDATA[%1 видео успешно восстановлено(ы). Просмотрите и сохраните видео сейчас.]]></Text>
+    </Control>
+	<Control ClassName="AdvanceRepairComplterDesc" ControlType="11">
+      <Text><![CDATA[%1 видео успешно восстановлено(ы). Просмотрите и сохраните видео сейчас.]]></Text>
+    </Control>
+	<Control ClassName="AdvanceRepairErrorDesc1" ControlType="11">
+      <Text><![CDATA[%1 видео восстановлено успешно, %2 видео не удалось восстановить. Пожалуйста, измените Образец Видео и восстановите его снова.]]></Text>
+    </Control>	
+	<Control ClassName="AdvanceRepairErrorDesc2" ControlType="11">
+      <Text><![CDATA[%1 видео восстановлено успешно, %2 видео не удалось восстановить, а %3 video(s) видео было отменено. Пожалуйста, измените Образец Видео и восстановите его снова.]]></Text>
+    </Control>	
+	
+	<Control ClassName="ProtectedDialogTitle1" ControlType="11">
+      <Text><![CDATA[ Недостаточно Прав!]]></Text>
+    </Control>
+	<Control ClassName="ProtectedDialogTitle2" ControlType="11">
+      <Text><![CDATA[<font color=#676F81><b>Недостаточно Прав</b></font><font color=#26324B> для сохранения файла на выбранный диск. Пожалуйста, выберите другой диск еще раз.</font>]]></Text>
+    </Control>
+	<Control ClassName="ProtectedDialogTitle3" ControlType="11">
+      <Text><![CDATA[Выбрать повторно]]></Text>
+    </Control>	
+	<Control ClassName="ProtectedDialogTitle4" ControlType="11">
+      <Text><![CDATA[Недостаточно Места!]]></Text>
+    </Control>	
+	<Control ClassName="ProtectedDialogTitle5" ControlType="11">
+      <Text><![CDATA[Недостаточно места для сохранения восстановленных видео. Организуйте свой компьютер и попробуйте еще раз.]]></Text>
+    </Control>
+	<Control ClassName="ProtectedDialogTitle5_ss" ControlType="11">
+      <Text><![CDATA[Для сохранения восстановленных видео требуется больше места, чем исходные размеры файлов.]]></Text>
+    </Control>
+	<Control ClassName="ProtectedDialogTitle5_s" ControlType="11">
+      <Text><![CDATA[Для сохранения восстановленного видео требуется больше места, чем исходный размер файла.]]></Text>
+    </Control>
+	<Control ClassName="ScanFrameExit" ControlType="11">
+      <Text><![CDATA[Вы уверены, что хотите выйти?]]></Text>
+    </Control>
+	<Control ClassName="ScanFrameHomeBack" ControlType="11">
+      <Text><![CDATA[Результаты восстановления не будут сохранены, если вы выйдете сейчас. Вы уверены, что хотите выйти?]]></Text>
+    </Control>
+	
+	<Control ClassName="strError" ControlType="11">
+      <Text><![CDATA[Wondershare Repairit все еще работает!]]></Text>
+    </Control>
+    <Control ClassName="strWaring" ControlType="11">
+      <Text><![CDATA[Предупреждение]]></Text>
+    </Control>
+    <Control ClassName="IsAdmin" ControlType="11">
+       <Text><![CDATA[Вам необходимо предоставить права администратора для запуска этой программы]]></Text>
+    </Control>
+    <Control ClassName="DateTimeOverLimit" ControlType="11">
+      <Text><![CDATA[Программа обнаружила, что вы превысили лимит времени для программного обеспечения. Если вы все еще хотите использовать программу, свяжитесь с нами.]]></Text>
+    </Control>		
+  </Dialog>
+  <Dialog ClassName="Piracy">
+      <Control ClassName="PiracyNetWorkDesc" ControlType="11">
+      <Text><![CDATA[Для активации программного обеспечения требуется подключение к Интернету. Проверьте свою сеть или обратитесь к ИТ-администратору.]]></Text>
+    </Control>
+    <Control ClassName="PiracyDesc1" ControlType="11">
+      <Text><![CDATA[Вы рискуете использовать пиратское ПО!]]></Text>
+    </Control>
+	<Control ClassName="PiracyDesc2" ControlType="11">
+      <Text><![CDATA[Предупреждение:]]></Text>
+    </Control>
+	<Control ClassName="PiracyDesc3" ControlType="11">
+      <Text><![CDATA[Ваш компьютер может заразиться вирусами использованием пиратского программного обеспечения и даже снова вызвать потерю ваших данных.]]></Text>
+    </Control>
+	<Control ClassName="PiracyDesc4" ControlType="11">
+      <Text><![CDATA[Вот Ограниченное по Времени Предложение для вас]]></Text>
+    </Control>
+	<Control ClassName="PiracyDesc5" ControlType="11">
+      <Text><![CDATA[Скидка 60% на покупку Подлинной Лицензии.]]></Text>
+    </Control>
+	<Control ClassName="PiracyDesc6" ControlType="11">
+      <Text><![CDATA[Обратите внимание: Мы рекомендуем как можно скорее восстановить отсканированные файлы. В противном случае данные могут быть перезаписаны и восстановление не удастся.]]></Text>
+    </Control>	
+	<Control ClassName="PiracyDesc7" ControlType="11">
+      <Text><![CDATA[Ваше приложение кажется поврежденным или неполным, пожалуйста, загрузите официальную версию и переустановите.]]></Text>
+    </Control>
+	<Control ClassName="PiracyDesc8" ControlType="11">
+      <Text><![CDATA[<a href="#"><font color=#00B0F5>Official Веб-сайт</font></a>]]></Text>
+    </Control>
+	<Control ClassName="UnVerifyTrustDesc1" ControlType="11">
+      <Text><![CDATA[Вы рискуете использовать пиратское программное обеспечение, пожалуйста, купите легальную копию, чтобы продолжить использование.]]></Text>
+    </Control>
+	<Control ClassName="UnVerifyTrustDesc2" ControlType="11">
+      <Text><![CDATA[Купить]]></Text>
+    </Control>
+	<Control ClassName="UnVerifyTrustDesc3" ControlType="11">
+      <Text><![CDATA[Скачать]]></Text>
+    </Control>
+	<Control ClassName="PreviewLoadDesc" ControlType="11">
+      <Text><![CDATA[Файл загружается... Пожалуйста, подождите.]]></Text>
+    </Control>
+	<Control ClassName="UnVerifyTrustDesc4" ControlType="11">
+      <Text><![CDATA[Пожалуйста, загрузите и установите подлинное программное обеспечение с официального сайта Recoverit после покупки. http://recoverit.wondershare.com]]></Text>
+    </Control>
+	 <Control ClassName="UserAssistantRetry" ControlType="13">
+      <Text><![CDATA[Попробовать еще раз]]></Text>
+    </Control>
+	<Control ClassName="UserAssistantRefund" ControlType="11">
+      <Text><![CDATA[По вашему заказу был обнаружен возврат денежных средств. Если вы хотите и дальше использовать программу, приобретите ее.]]></Text>
+    </Control>
+	<Control ClassName="UserAssistantWaring" ControlType="11">
+      <Text><![CDATA[Обнаружено, что ваш регистрационный код превысил период авторизации/количество доступных ПК. Пожалуйста, совершите покупку, если вы хотите продолжить использование программы.]]></Text>
+    </Control>
+	<Control ClassName="UserAssistantQuit" ControlType="11">
+      <Text><![CDATA[Возникла проблема с авторизацией аккаунта. Пожалуйста, попробуйте еще раз.]]></Text>
+    </Control>
+	<Control ClassName="UserAssistantQuit1" ControlType="11">
+      <Text><![CDATA[Возникла проблема с авторизацией аккаунта.]]></Text>
+    </Control>
+  </Dialog>
+  <Dialog ClassName="VideoRepairSampleDialog">
+  <Control ClassName="SampleVideoDesc" ControlType="11">
+			<Text>
+				<![CDATA[<a href="#"><Font color="#047CF3">Как получить образец видео?</Font></a>]]></Text>
+		</Control>
+	<Control ClassName="strlblTitle" ControlType="11">
+      <Text><![CDATA[Добавьте образец видео для восстановления]]></Text>
+    </Control>  
+  <Control ClassName="strlblCloudTitle" ControlType="11">
+      <Text><![CDATA[Автоматический ремонт]]></Text>
+    </Control> 
+   <Control ClassName="strlblCloudDesc" ControlType="11">
+      <Text><![CDATA[Если у вас нет образца видео, вы можете попробовать эту функцию.Мы выберем тот, который лучше всего подходит для вашего видео.]]></Text>
+    </Control> 
+	<Control ClassName="strlblDesc" ControlType="11">
+      <Text><![CDATA[Образец видео — это воспроизводимое видео с измененными кадрами, созданное на том же устройстве или в том же формате, что и исправленное видео.]]></Text>
+    </Control>
+	<Control ClassName="strcheckBox" ControlType="11">
+      <Text><![CDATA[Применить ко всем видео, которые не удалось восстановить.]]></Text>
+    </Control>
+	<Control ClassName="strtStartAdvance" ControlType="11">
+      <Text><![CDATA[Восстановленные видео не будут сохранены, если вы запустите Расширенное Восстановление. Вы хотите сохранить восстановленные видео перед Расширенным Восстановлением?]]></Text>
+    </Control>
+	<Control ClassName="ButtonRepairDesc" ControlType="11">
+      <Text><![CDATA[Далее]]></Text>
+    </Control>	
+  </Dialog>
+  <Dialog ClassName="VideoSampleHintDialog">
+		<Control ClassName="Title" ControlType="11">
+			<Text>
+				<![CDATA[Как получить образец видео?]]></Text>
+		</Control>
+		<Control ClassName="Hint1" ControlType="11">
+			<Text>
+				<![CDATA[Режим 1]]></Text>
+		</Control>
+		<Control ClassName="Hint2" ControlType="11">
+			<Text>
+				<![CDATA[Режим 2]]></Text>
+		</Control>
+		<Control ClassName="Hint3" ControlType="11">
+			<Text>
+				<![CDATA[Режим 3]]></Text>
+		</Control>
+		<Control ClassName="Desc1" ControlType="11">
+			<Text>
+				<![CDATA[Используйте то же оборудование для съемки нового видео в том же формате.]]></Text>
+		</Control>
+		<Control ClassName="Desc2" ControlType="11">
+			<Text>
+				<![CDATA[Используйте Интернет для поиска видео в том же формате, что и на аналогичном устройстве.]]></Text>
+		</Control>
+		<Control ClassName="Desc3" ControlType="11">
+			<Text>
+				<![CDATA[Используйте видео того же формата, что и ранее на этом устройстве.]]></Text>
+		</Control>
+		<Control ClassName="Apply" ControlType="11">
+			<Text>
+				<![CDATA[OK]]></Text>
+		</Control>
+	</Dialog>
+  <Dialog ClassName="PhotoRepairSampleDialog">
+	<Control ClassName="strlblTitle" ControlType="11">
+      <Text><![CDATA[Add a Sample Photo to Repair:]]></Text>
+    </Control>  
+	<Control ClassName="strlblDesc" ControlType="11">
+      <Text><![CDATA[A sample photo is <b>a good, openable file</b> created with the same device or the same format as the corrupted photo.]]></Text>                 
+    </Control>
+	<Control ClassName="strcheckBox" ControlType="11">
+      <Text><![CDATA[Apply to all the same format photos.]]></Text>
+    </Control>
+	<Control ClassName="ButtonRepairDesc" ControlType="11">
+      <Text><![CDATA[Repair]]></Text>
+    </Control>	
+  </Dialog>
+  <Dialog ClassName="VideoPreviewDialog">
+    <Control ClassName="PlayerDesc" ControlType="11">
+      <Text><![CDATA[Разрешение предварительного просмотра видео ограничено. Для просмотра видео в фактическом разрешении сохраните его на компьютере.]]></Text>
+    </Control>	
+	
+	 <Control ClassName="RepairFailedDesc" ControlType="11">
+      <Text><![CDATA[Невозможно воспроизвести видео. Попробуйте использовать Образец Видео для режима Расширенного Восстановления.]]></Text>
+    </Control>
+	 <Control ClassName="AdvanceRepairFailedDesc" ControlType="11">
+      <Text><![CDATA[Невозможно воспроизвести видео. Попробуйте изменить Образец Видео и повторите попытку.]]></Text>
+    </Control>
+	<Control ClassName="AdvanceRepair" ControlType="11">
+      <Text><![CDATA[Если вас не устраивает качество видео, попробуйте режим <a href="#"><Font color="#00B0F5">Расширенного Восстановления</Font></a>, чтобы восстановить снова.]]></Text>
+    </Control>
+	<Control ClassName="ChangeSample" ControlType="11">
+      <Text><![CDATA[Если вас не устраивает качество видео, попробуйте<a href="#"><Font color="#00B0F5">Изменить Образец Видео</Font></a> и восстановить его снова или.]]></Text>
+    </Control>
+	<Control ClassName="strRecover" ControlType="11">
+      <Text><![CDATA[Сохранить]]></Text>
+    </Control>
+	<Control ClassName="PreviewLoadDesc" ControlType="11">
+      <Text><![CDATA[Файл загружается... Пожалуйста, подождите.]]></Text>
+    </Control>
+	<Control ClassName="PreviewMaxLoadDesc" ControlType="11">
+      <Text><![CDATA[Файл слишком большой. Загрузка предварительного просмотра видео займет некоторое время, пожалуйста, подождите.]]></Text>
+    </Control>
+	<Control ClassName="fiveThumbnail" ControlType="11">
+      <Text><![CDATA[Пять снимков экрана показывают содержание видео.]]></Text>
+    </Control>
+  </Dialog>
+  <Dialog ClassName="PhotoPreviewDialog">
+	 <Control ClassName="RepairFailedDesc" ControlType="11">
+      <Text><![CDATA[Unable to view photo. Try to use the Sample Photo for Advanced Repair mode.]]></Text>
+    </Control>
+	 <Control ClassName="AdvanceRepairFailedDesc" ControlType="11">
+      <Text><![CDATA[Unable to view photo. Try to change the Sample Photo and try again.]]></Text>
+    </Control>
+	<Control ClassName="AdvanceRepair" ControlType="11">
+      <Text><![CDATA[If you are not satisfied with the photo quality, try <a href="#"><Font color="#00B0F5">Advanced Repair</Font></a> Mode to repair it again.]]></Text>
+    </Control>
+	<Control ClassName="ChangeSample" ControlType="11">
+      <Text><![CDATA[If you are not satisfied with the photo quality, try <a href="#"><Font color="#00B0F5">Change the Sample Photo</Font></a> to repair it again.]]></Text>
+    </Control>
+	<Control ClassName="strRecover" ControlType="11">
+      <Text><![CDATA[Save]]></Text>
+    </Control>
+	<Control ClassName="PreviewLoadDesc" ControlType="11">
+      <Text><![CDATA[The file is loading...please wait patiently.]]></Text>
+    </Control>
+  </Dialog>
+  <Dialog ClassName="HintDialog">
+	 <Control ClassName="title" ControlType="11">
+      <Text><![CDATA[Купите Лицензию для Сохранения Восстановленного Видео.]]></Text>
+    </Control>
+	
+	<Control ClassName="Header1" ControlType="11">
+      <Text><![CDATA[Особенности]]></Text>
+    </Control>
+	<Control ClassName="Header2" ControlType="11">
+      <Text><![CDATA[Пробная версия]]></Text>
+    </Control>
+	<Control ClassName="Header3" ControlType="11">
+      <Text><![CDATA[Платный]]></Text>
+    </Control>
+	
+	<Control ClassName="TextDesc1" ControlType="11">
+      <Text><![CDATA[Размер восстановленных видео]]></Text>
+    </Control>
+	<Control ClassName="TextDesc2" ControlType="11">
+      <Text><![CDATA[Количество восстановленных видео]]></Text>
+    </Control>
+	<Control ClassName="TextDesc3" ControlType="11">
+      <Text><![CDATA[Функция Расширенного Восстановления Видео]]></Text>
+    </Control>
+	<Control ClassName="TextDesc4" ControlType="11">
+      <Text><![CDATA[Количество восстановленных видеоформатов]]></Text>
+    </Control>
+	<Control ClassName="TextDesc5" ControlType="11">
+      <Text><![CDATA[Длительность предварительного просмотра видео]]></Text>
+    </Control>
+	<Control ClassName="TextDesc6" ControlType="11">
+      <Text><![CDATA[Сохранить восстановленные видео]]></Text>
+    </Control>
+	<Control ClassName="TextDesc7" ControlType="11">
+      <Text><![CDATA[Экспертная техническая поддержка]]></Text>
+    </Control>
+	
+	 <Control ClassName="title_1" ControlType="11">
+      <Text><![CDATA[Buy a License to Save Repaired Photo!]]></Text>
+    </Control>
+	
+	<Control ClassName="Header2_1" ControlType="11">
+      <Text><![CDATA[Photo Repair]]></Text>
+    </Control>
+	<Control ClassName="TextDesc1_1" ControlType="11">
+      <Text><![CDATA[Repair photos in multiple formats]]></Text>
+    </Control>
+	<Control ClassName="TextDesc2_1" ControlType="11">
+      <Text><![CDATA[Advanced Photo Repair]]></Text>
+    </Control>
+	<Control ClassName="TextDesc3_1" ControlType="11">
+      <Text><![CDATA[Preview and save photos]]></Text>
+    </Control>
+	<Control ClassName="TextDesc4_1" ControlType="11">
+      <Text><![CDATA[Various repair results]]></Text>
+    </Control>
+	<Control ClassName="TextDesc5_1" ControlType="11">
+      <Text><![CDATA[Repair videos in multiple formats]]></Text>
+    </Control>
+	<Control ClassName="TextDesc6_1" ControlType="11">
+      <Text><![CDATA[Preview and save videos]]></Text>
+    </Control>
+	<Control ClassName="TextDesc7_1" ControlType="11">
+      <Text><![CDATA[Advanced Video Repair]]></Text>
+    </Control>
+	<Control ClassName="TextDesc8_1" ControlType="11">
+      <Text><![CDATA[Sample video verification]]></Text>
+    </Control>
+	
+	<Control ClassName="ValueDesc1" ControlType="11">
+      <Text><![CDATA[Безлимитно]]></Text>
+    </Control>
+	<Control ClassName="ValueDesc2" ControlType="11">
+      <Text><![CDATA[Всего 30 секунд]]></Text>
+    </Control>
+	
+	<Control ClassName="BtnBuy" ControlType="13">
+      <Text><![CDATA[КУПИТЬ СЕЙЧАС]]></Text>
+    </Control>
+	<Control ClassName="labelRegister" ControlType="11">
+      <Text><![CDATA[Уже купили? Перейдите к <a href="#"><Font color="#00B0F5">Активировать<Font></a> сейчас.]]></Text>
+    </Control>
+	
+	<Control ClassName="NoteDesc1" ControlType="11">
+      <Text><![CDATA[Остались данные для восстановления?<br>Попробуйте Recoverit, чтобы восстановить потерянные файлы прямо сейчас!]]></Text>
+    </Control>
+	<Control ClassName="NoteDesc2" ControlType="11">
+      <Text><![CDATA[Восстановить удаленные файлы.]]></Text>
+    </Control>
+	<Control ClassName="NoteDesc3" ControlType="11">
+      <Text><![CDATA[Recoverit требует отдельных лицензий.]]></Text>
+    </Control>
+	<Control ClassName="btnMore" ControlType="13">
+      <Text><![CDATA[Подробнее]]></Text>
+    </Control>
+	
+  </Dialog>
+  <Dialog ClassName="VideoRepairMatchDialog">
+    <Control ClassName="textDesc1" ControlType="11">
+      <Text><![CDATA[Проверка Образца Видео… Пожалуйста, подождите.]]></Text>
+    </Control>
+	<Control ClassName="textDesc2" ControlType="11">
+      <Text><![CDATA[Поврежденное Видео]]></Text>
+    </Control>
+	<Control ClassName="textDesc3" ControlType="11">
+      <Text><![CDATA[Образец Видео]]></Text>
+    </Control>
+	<Control ClassName="textDesc4" ControlType="11">
+      <Text><![CDATA[Проверка прошла успешно! Перейдите в режим Расширенного Восстановления.]]></Text>
+    </Control>
+	<Control ClassName="textDesc5" ControlType="11">
+      <Text><![CDATA[ <b>Формат</b> не совпадает. Пожалуйста, измените на другой Образец Видео. В противном случае качество восстановленного видео может быть не таким хорошим.]]></Text>
+    </Control>
+	<Control ClassName="textDesc6" ControlType="11">
+      <Text><![CDATA[<b>Видеокодек</b> не совпадает. Пожалуйста, измените на другой Образец Видео. В противном случае качество восстановленного видео может быть не таким хорошим.]]></Text>
+    </Control>
+	<Control ClassName="textDesc7" ControlType="11">
+      <Text><![CDATA[<b>Производитель</b> не совпадает. Пожалуйста, измените на другой Образец Видео. В противном случае качество восстановленного видео может быть не таким хорошим.]]></Text>
+    </Control>
+	<Control ClassName="textDesc8" ControlType="11">
+      <Text><![CDATA[<b>Разрешение</b> не совпадает. Пожалуйста, измените на другой Образец Видео. В противном случае качество восстановленного видео может быть не таким хорошим.]]></Text>
+    </Control>
+	<Control ClassName="textDesc9" ControlType="11">
+      <Text><![CDATA[Восстановить]]></Text>
+    </Control>
+	<Control ClassName="textDesc10" ControlType="11">
+      <Text><![CDATA[Изменить Образец Видео]]></Text>
+    </Control>
+	<Control ClassName="labelCheckBoxTitle" ControlType="11">
+			<Text><![CDATA[Применять ко всем видео одного формата.]]></Text>
+		</Control>
+  </Dialog>
+   <Dialog ClassName="VideoRepairSimilarDialog">
+	 <Control ClassName="textDesc1" ControlType="11">
+      <Text><![CDATA[Этот образец видео также применяется к другим %1 поврежденным видео. Вы хотите восстановить все видео?]]></Text>
+    </Control>
+	<Control ClassName="textDesc2" ControlType="11">
+      <Text><![CDATA[ДА]]></Text>
+    </Control>
+	<Control ClassName="textDesc3" ControlType="11">
+      <Text><![CDATA[НЕТ]]></Text>
+    </Control>
+  </Dialog>
+  <Dialog ClassName="CRegisterDialog" PageType ="Register">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Close"/>
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState ="RegisterSuccss">
+        <Text><![CDATA[Wondershare Repairit зарегистрирован!]]></Text>
+      </Control>
+      <Control ClassName="m_lblEmail" ControlType="1">
+        <Text><![CDATA[Лицензионный E-mail:]]></Text>
+      </Control>
+      <Control ClassName="m_lblCode" ControlType="1">
+        <Text><![CDATA[Регистрационный Код:]]></Text>
+      </Control>
+      <!--<Control ClassName="m_lblNote" ControlType="1">
+        <Text><![CDATA[Обратите внимание:]]></Text>
+        <Font Bold = "0" PointSize = "9"/>
+        <Margins Left="37" Top="290" Width ="30" Height="16"/>
+      </Control>-->
+      <Control ClassName="m_closeDlgButton" ControlType="13">
+        <Text><![CDATA[Закрыть]]></Text>
+      </Control>
+      <Control ClassName="m_lblLetterTop" ControlType="1">
+        <Text><![CDATA[<b>Обратите внимание:</b> если у вас возникли проблемы с регистрационным кодом или программным обеспечением, обратитесь: <Font color="#217EC4"><a href="0">Поддержка</a></Font>.]]></Text>
+        <Font Bold = "0" PointSize = "9"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CRegisterDialog" PageType ="UnRegister">
+	  <Control ClassName="m_lblText" ControlType="11" LabState ="EmailNull">
+        <Text><![CDATA[E-mail не может быть пустой, попробуйте еще раз.]]></Text>
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState ="CodeNull">
+        <Text><![CDATA[Регистрационный код не может быть пустым. Пожалуйста, попробуйте еще раз.]]></Text>
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState ="EmailError">
+        <Text><![CDATA[Неверный лицензионный адрес электронной почты. Пожалуйста, попробуйте еще раз.]]></Text>
+      </Control>
+      <Control ClassName="m_lblText" ControlType="11" LabState="RegisterFile">
+        <Text><![CDATA[Неверный лицензионный адрес электронной почты или регистрационный код! И лицензионный адрес электронной почты, и регистрационный код чувствительны к регистру, пожалуйста, проверьте свою регистрационную информацию или убедитесь, что ваш регистрационный код соответствует текущей версии.]]></Text>
+      </Control>
+      <Control ClassName="m_closeDlgButton" ControlType="13">
+        <Text><![CDATA[Бесплатная Пробная Версия]]></Text>
+      </Control>
+      <Control ClassName="m_RegisterButton" ControlType="13">
+        <Text><![CDATA[Зарегистрироваться]]></Text>
+      </Control>
+      <Control ClassName="m_BuyNowButton" ControlType="13">
+        <Text><![CDATA[Купить Сейчас]]></Text>
+      </Control>
+      <Control ClassName="m_lblLetterTop" ControlType="1">
+        <Text><![CDATA[<b>Обратите внимание:</b> если у вас возникли проблемы с регистрационным кодом или программным обеспечением, обращайтесь: <Font color="#217EC4"><a href="1">Поддержка</a></Font>.]]></Text>
+      </Control>
+    </Dialog>
+  
+   <Dialog ClassName="CPromptDialog" PageType="Stop0">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Close"/>
+      </Control>
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[ДА]]></Text>
+      </Control>
+      <Control ClassName="m_NoButton" ControlType="13">
+        <Text><![CDATA[НЕТ]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop1">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Стоп]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Отмена]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop2">
+      <Control ClassName="m_ExitButton" ControlType="13">
+        <Text><![CDATA[Выйти]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Отмена]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop3">
+      <Control ClassName="m_NoButton" ControlType="13">
+        <Text><![CDATA[Нет]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Отмена]]></Text>
+      </Control>
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Сохранить]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop4">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[OK]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop5">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Перезаписать]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Отмена]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CPromptDialog" PageType="Stop6">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Сохранить]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Отмена]]></Text>
+      </Control>
+    </Dialog>
+	<Dialog ClassName="CPromptDialog" PageType="Stop7">
+      <Control ClassName="m_sureButton" ControlType="13">
+        <Text><![CDATA[Продолжить]]></Text>
+      </Control>
+      <Control ClassName="m_cancelButton" ControlType="13">
+        <Text><![CDATA[Изменить папку]]></Text>
+      </Control>
+	</Dialog>
+	<Dialog ClassName="CRecoveryDialog" >
+      <Control ClassName="t_strNewName" ControlType="11">
+        <Text><![CDATA[Новая папка]]></Text>
+      </Control>
+      <Control ClassName ="m_newFolderButton" ControlType="13">
+        <Text><![CDATA[Новая папка]]></Text>
+      </Control>
+      <Control ClassName ="m_recoverButton" ControlType="13">
+        <Text><![CDATA[Восстановить]]></Text>
+      </Control>
+      <Control ClassName="m_lblTipText" ControlType="11">
+        <Text><![CDATA[Пожалуйста, выберите путь для сохранения восстановленных видео.]]></Text>
+      </Control>
+	   <Control ClassName="m_lblTipText_1" ControlType="11">
+        <Text><![CDATA[Please choose a path to save the repaired photos.]]></Text>
+      </Control>
+       <Control ClassName="strTipText_1" ControlType="11">
+        <Text><![CDATA[Please choose a path to save the repaired photos.]]></Text>
+      </Control>
+      <Control ClassName="strSavePath" ControlType="11">
+        <Text><![CDATA[Мы рекомендуем вам не сохранять файлы на тот же диск, на котором вы их потеряли. (Это может снизить вероятность успешного восстановления)]]></Text>
+      </Control>
+	  <Control ClassName="strRecycleSave" ControlType="11">
+        <Text><![CDATA[Рекомендуется сохранять восстановленные файлы на внешний диск, чтобы файлы не перезаписывались.]]></Text>
+      </Control>
+      <Control ClassName="strTipText" ControlType="11">
+        <Text><![CDATA[Пожалуйста, выберите путь для сохранения восстановленных видео.]]></Text>
+      </Control>
+      <Control ClassName="strEnough" ControlType="11">
+        <Text><![CDATA[Недостаточно места. %1 требуется для выбранных файлов. Пожалуйста, выберите другой путь, чтобы продолжить.]]></Text>
+      </Control>
+      <Control ClassName="strWaring" ControlType="11">
+        <Text><![CDATA[Сохранение данных в исходном разделе снизит вероятность успешного восстановления. Все еще хотите сохранить в нем данные?]]></Text>
+      </Control>
+      <Control ClassName="t_lookIn" ControlType="11">
+        <Text><![CDATA[Искать в]]></Text>
+      </Control>
+      <Control ClassName="t_fileName" ControlType="11">
+        <Text><![CDATA[Имя файла]]></Text>
+      </Control>
+      <Control ClassName="t_flitType" ControlType="11">
+        <Text><![CDATA[Типы файлов]]></Text>
+      </Control>
+      <Control ClassName="t_title" ControlType="11">
+        <Text><![CDATA[Сохранить как]]></Text>
+      </Control>
+      <Control ClassName="t_saveButton" ControlType="11">
+        <Text><![CDATA[Сохранить все]]></Text>
+      </Control>
+      <Control ClassName="t_cancelButton" ControlType="11">
+        <Text><![CDATA[Отмена]]></Text>
+      </Control>
+      <Control ClassName="m_pDeskTop" ControlType="8">
+        <Text><![CDATA[ Рабочий стол]]></Text>
+      </Control>
+      <Control ClassName="m_pDocument" ControlType="8">
+        <Text><![CDATA[ Мои Документы]]></Text>
+      </Control>
+      <Control ClassName="m_pComputer" ControlType="8">
+        <Text><![CDATA[ Мой Компьютер]]></Text>
+      </Control>
+      <Control ClassName="o_lookIn" ControlType="11">
+        <Text><![CDATA[Искать в]]></Text>
+      </Control>
+      <Control ClassName="o_fileName" ControlType="11">
+        <Text><![CDATA[Имя файла]]></Text>
+      </Control>
+      <Control ClassName="o_flitType" ControlType="11">
+        <Text><![CDATA[Типы файлов]]></Text>
+      </Control>
+      <Control ClassName="o_title" ControlType="11">
+        <Text><![CDATA[Загрузить Файл Результатов]]></Text>
+      </Control>
+      <Control ClassName="o_saveButton" ControlType="11">
+        <Text><![CDATA[Открыть]]></Text>
+      </Control>
+      <Control ClassName="o_loadButton" ControlType="11">
+        <Text><![CDATA[Загрузить]]></Text>
+      </Control>
+      <Control ClassName="o_cancelButton" ControlType="11">
+        <Text><![CDATA[Отмена]]></Text>
+      </Control>
+      <Control ClassName="o_message" ControlType="11">
+        <Text><![CDATA[Пожалуйста, вставьте диск]]></Text>
+      </Control>
+      <Control ClassName="m_RenameText" ControlType="11">
+        <Text><![CDATA[Новое имя уже существует или Новое имя указывает на открытый файл.]]></Text>
+      </Control>
+	  <Control ClassName="strPEWaring" ControlType="11">
+        <Text><![CDATA[Поскольку ваш компьютер не может перезагрузиться в обычном режиме, восстановите файлы на внешний диск, а не на локальный жесткий диск.]]></Text>
+      </Control>
+    </Dialog>
+	 <Dialog ClassName="CrecoveryTreeModel">
+      <Control ClassName="m_sDocumentItem" ControlType="10">
+        <Text><![CDATA[Мои Документы]]></Text>
+      </Control>
+      <Control ClassName="m_sDeskTopItem" ControlType="10">
+        <Text><![CDATA[Рабочий стол]]></Text>
+      </Control>
+      <Control ClassName="m_sComputerItem" ControlType="10">
+        <Text><![CDATA[Мой Компьютер]]></Text>
+      </Control>
+    </Dialog>
+	<Dialog ClassName="CProgressDialog" >
+      <Control ClassName="m_stopButton" ControlType="13">
+        <Text><![CDATA[Стоп]]></Text>
+      </Control>
+      <Control ClassName="strRecoverFilesNum" ControlType="11">
+        <Text><![CDATA[Сохранение видео: ]]></Text>
+      </Control>
+	   <Control ClassName="strRecoverFilesNum_1" ControlType="11">
+        <Text><![CDATA[Saving %1 of %2 photos:]]></Text>
+      </Control>
+      <Control ClassName="strRemainTime" ControlType="11">
+        <Text><![CDATA[Оставшееся Время: ]]></Text>
+      </Control>
+      <Control ClassName="strSaveTitle" ControlType="11">
+        <Text><![CDATA[Сохранение, пожалуйста, подождите...]]></Text>
+      </Control>
+      <Control ClassName="strHead" ControlType="11">
+        <Text><![CDATA[Сохранение ]]></Text>
+      </Control>
+      <Control ClassName="strMid" ControlType="11">
+        <Text><![CDATA[  ]]></Text>
+      </Control>
+      <Control ClassName="strTail" ControlType="11">
+        <Text><![CDATA[ диска(ов)]]></Text>
+      </Control>
+      <Control ClassName="strStopTitle" ControlType="11">
+        <Text><![CDATA[Вы уверены, что хотите отменить сохранение файлов?]]></Text>
+      </Control>
+      <Control ClassName="strSaveFiledTitle" ControlType="11">
+        <Text><![CDATA[Раздел, на котором вы хотите сохранить данные, удален. Сохранение прекращается.]]></Text>
+      </Control>
+    </Dialog>
+	 <Dialog ClassName="CMainWidget" >     
+      <!--所有扫描状态-->
+      <Control ClassName="m_strFileCount" ControlType="11" LabState="Normal">
+        <Text><![CDATA[Файлов Найдено: ]]></Text>
+      </Control>
+      <Control ClassName="m_strFileCount" ControlType="11" LabState="CheckSys">
+        <Text><![CDATA[Обнаружение файловой системы…]]></Text>
+      </Control>
+      <Control ClassName="m_strSector" ControlType="11" >
+        <Text><![CDATA[Чтение Секторов: ]]></Text>
+      </Control>
+      <Control ClassName="m_strRemainTime" ControlType="11" LabState="IsScanning">
+        <Text><![CDATA[Оставшееся Время: ]]></Text>
+      </Control>
+      <Control ClassName="m_strRemainTime" ControlType="11" LabState="NoScanning">
+        <Text><![CDATA[Расчет оставшегося времени]]></Text>
+      </Control>
+	</Dialog>
+	
+	<Dialog ClassName="CAboutDialog">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Close"/>
+      </Control>    
+      <Control ClassName="lblVersion" ControlType="11">
+        <Text><![CDATA[Версия: ]]></Text>
+        <Font Bold = "1" PointSize = "8" R = "99" G = "106" B = "124"/>
+        <Margins Left="240" Top="140" Width="100" Height="16"/>
+      </Control>     
+      <Control ClassName="m_scrollMessageHead" ControlType="11">
+        <Text>
+<![CDATA[Wondershare<br>Repairit]]></Text>
+      </Control>
+	  <Control ClassName="m_scrollMessageHead1" ControlType="11">>
+	    <Text>
+	    <![CDATA[Компания Wondershare, основанная в 2003 году, является мировым лидером в разработке программного обеспечения и пионером в области цифрового творчества. Наши технологии мощные, а предлагаемые нами решения просты и удобны. Вот почему нам доверяют миллионы людей в более чем 150 странах мира. Мы помогаем нашим пользователям реализовать свои увлечения, чтобы вместе мы могли построить более творческий мир.]]>
+      </Text>  
+	  </Control>
+      <Control ClassName="m_scrollMessageCenter" ControlType="11">
+        <Text><![CDATA[Посетите <a href="#1"><Font color="#007BFF">Wondershare</Font></a> Официальный Сайт и <a href="#2"><Font color="#007BFF">Wondershare Repairit</Font></a>, чтобы узнать больше. ]]></Text>
+      </Control>
+      <Control ClassName="m_scrollMessageTail" ControlType="11">
+        <Text>
+<![CDATA[Авторские права © 2021 Wondershare. Все права защищены.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="cmenuOption">
+      <Control ClassName="m_lblTitle" ControlType ="1">
+        <Text> <![CDATA[Параметры Настройки]]></Text>
+      </Control>
+      <Control ClassName="Interface" ControlType ="1">
+        <Text><![CDATA[Интерфейс]]></Text>
+        <Margins Left="60" Top="55" Width="70" Height="22"/>
+      </Control>
+      <Control ClassName="m_scanSeprator"  ControlType ="12">
+        <Margins Left="180" Top="130" Width="441" Height="3"></Margins>
+      </Control>
+      <Control ClassName="m_lanugageSeprator"  ControlType ="12">
+        <Margins Left="140" Top="65" Width="481" Height="3"></Margins>
+      </Control>
+      <Control ClassName="Language" ControlType ="1">
+        <Text><![CDATA[Язык]]></Text>
+        <Margins Left="60" Top="104" Width="70" Height="30"/>
+      </Control>
+      <Control ClassName="languageCombox" ControlType ="4">
+        <Contents StringItems ="English(English),Japanese(日本語),French(Français),German(Deutsch),Chinese Simplified(中国),Portuguese(Portuguese),Italiano(Italiano),Spanish(Español),Netherland(Nederlands),Arabic( العربية ),Korean(한국어)"/>
+        <FixSize FixHeight ="30" FixWidth ="170"/> 
+        <Margins Left="136" Top="104" Width="155" Height="30" />
+      </Control>
+      <Control ClassName="scanTitle" ControlType ="1">
+        <Text><![CDATA[Настройки Восстановления]]></Text>
+        <Margins Left="60" Top="117" Width="115" Height="22" />
+      </Control>
+      <Control ClassName="openFolderCheckBox" ControlType ="5">
+        <Text><![CDATA[Автоматически открывать целевую папку после восстановления.]]></Text>
+        <Contents State ="1"/>
+        <FixSize FixHeight ="22"/>
+        <Margins Left="60" Top="150" Width="450" Height="22"/>
+      </Control>
+      <Control ClassName="okButton" ControlType="13">
+        <Text><![CDATA[OK]]></Text>
+        <Margins Left="335" Top="198" Width="100" Height="32" />
+      </Control>
+      <Control ClassName="cancelButton" ControlType="13">
+        <Text><![CDATA[Отмена]]></Text>
+        <Margins Left="195" Top="198" Width="100" Height="32" />
+      </Control>
+	  <Control ClassName="okButton1" ControlType="13">
+        <Text><![CDATA[OK]]></Text>
+      </Control>
+      <Control ClassName="cancelButton1" ControlType="13">
+        <Text><![CDATA[Отмена]]></Text>
+      </Control>
+      <Control ClassName="closeButton" ControlType ="13">
+        <StatusTip StatusTipStr ="Close"/>
+      </Control>
+    </Dialog>
+	<Dialog ClassName="CMenuOptions">
+	  <Control ClassName="m_Menu" ControlType="6">
+        <Size Width="180" />
+      </Control>
+      <Control ClassName="m_optionsAction" ControlType="1">
+        <Text><![CDATA[Язык]]></Text>
+      </Control>
+      <Control ClassName="m_helpAction" ControlType="1">
+        <Text><![CDATA[Помощь]]></Text>
+      </Control>
+      <Control ClassName="m_purchaseAction" ControlType="1">
+        <Text><![CDATA[Купить]]></Text>
+      </Control>
+      <Control ClassName="m_registerAction" ControlType="1">
+        <Text><![CDATA[Активировать]]></Text>
+      </Control>
+      <Control ClassName="m_suppotAction" ControlType="1">
+        <Text><![CDATA[Руководство Пользователя]]></Text>
+      </Control>
+	  <Control ClassName="m_diskToolAction" ControlType="1">
+        <Text><![CDATA[Управление Дисками]]></Text>
+      </Control>
+      <Control ClassName="m_logfilesAction" ControlType="1">
+        <Text><![CDATA[Лог-файлы]]></Text>
+      </Control>
+      <Control ClassName="m_updateAction" ControlType="1">
+        <Text><![CDATA[Проверить наличие обновлений]]></Text>
+      </Control>
+	   <Control ClassName="m_userGuideAction" ControlType="1">
+        <Text><![CDATA[Руководство Пользователя]]></Text>
+      </Control>
+      <Control ClassName="m_aboutAction" ControlType="1">
+        <Text><![CDATA[О нас]]></Text>
+      </Control>
+	  <Control ClassName="m_contactusAction" ControlType="1">
+        <Text><![CDATA[Связаться с нами]]></Text>
+      </Control>
+    </Dialog> 
+  </Language>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Co.,Ltd0�"0	*�H�� � 0�
+� ��\����x((ᑎ�"yqJ����mP��1X-�찹
+o��-TB�tօ	�Ǒ�9�qu]�n�l��.��5�O���ѳ##(4d�lDඩ$�S�oz[��G�+�%�6�rq���s�i��K��q��Ja�es(�C���u8��l������7.%�fȬJ�O�̈��X>��8��LD�2�+��]�G>����&fD��hsd�M��#�OR��l��ӳ������V{i�e.d�Ϣ鑳��
+���se�7�ad�P���
+0$�.�� ��p�����W�y���o�+N��zIj 6EYWE|�D��ۃ���}C�!��(���6p"<�G����;�����SuFK���P"��vAjo�)��g�� iۢ�vQ���}C�0pm9Ud��G.c���8���֢axv�/��劯5���VK�s�ODI��\�ыf��l��t|��<O���*2A�rf��I��u����HOR`ԅ��"w^���ݑ���ђ�=h���ߧTl�l�ҙFTG ��G0�C0U#0�h7��;�_���a{�e�NB0U�ӫ�W��n�I��;Q��<0@U907�5+�)0'%CN-西藏自治区-91540195754285145H0U��0U%0
++0��U��0��0S�Q�O�Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S�Q�O�Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0=U 60402g�0)0'+http://www.digicert.com/CPS0��+��0��0$+0�http://ocsp.digicert.com0\+0�Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0U�0 0	*�H�� � (�@|O_���L�����7���w(�_H����hR��Y�◓��Wd���O"^k"=C�>2���G�]��{@`�K�t^�`d�2-{���ײ�<l�i Pӓ��Ң�R�҂�N����8����O����=��)�,�eFX��b�ZM#�nD!�D�*�K^�=��2{�}�]�����Z�ʲ�����#���}��_5$��6#G���h�Lԏ�5��������L�g�^���u�*|�:7�Zq��ѓ�����El%��z �a����ث��L�������W2M�H"鯇�a2����VDuZ�>���](�=�� ��BE�L�~y��ņ�7b���B� �P�1-5"�Eқh���9� y����\�n��%6�_f��8d������%ĭ��yaw:=c�\�n��l��;�.6��oe�EBO\�8am���K���y�E4��C��Ey,	�Xx��/�*7�z%��Q�z��f�{ڏ�Z%����>�/���Y��1�0_0�0[0}0i10	UUS10U
+DigiCert, Inc.1A0?U8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1��w���K�$�!o0	+ �p0
++�710 0	*�H��	1
++�70
++�710
++�70#	*�H��	1]���Bf�V�
+SQ�㻸�A�0	*�H�� � B�
+�Ox���mg���\[��yoR�9���g@.n��"i  dF�5���$���a��t/����^�_b��/O�6����T2�h�ې��@�)�)$����7�͌yq��6Ĕ�Ztv<�^�5}���N�/�=���ݘ�F����Y�qsu��HiW������;��[��Aڄ\�&g�TE�srw9% �ͺ�tH?U�转�.��<���y��^^�V:��;7w���Y���r��b��&�JX�!j@� �g�ѡm��/���"�*?W7)��3 S�=�!��Y2Ҡ��j�#6�^L��
+���z;���v�J��Pnv��iBj$\A���Fɱ&)��?����� ^�E��󺢊�N��Pm��� )�ֲ3r���*ԥ��UwQ���7��zH�����s�\ ���YZs������
+p 9���$z��ǜ��4�b1�,�/(�vN&��2������8�bw��B��
+�8Y���I?n}��>N�R�u�h����G��c��-E0�	*�H��	1�0�	0w0c10	UUS10U
+DigiCert, Inc.1;09U2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CAD��9���?_�a0	`�He �i0	*�H��	1	*�H��0	*�H��	1240625075418Z0/	*�H��	1" �m� �Q�p���kD!
+-�����]��MꜻE0	*�H�� � *�[N��8��j�'	"�zd����:E��~������`���1�ֈ�_=����e~�z��)�/�*�1��u���_S'�?w�~�Fӆ�.ٽ��55D�f)=Ҫ?jѿ���2�X�W�J_q����leey��`�]n�.X�om3rKp����.ЩR�<���sGQ8����濙��w+.+-�&s<�h]��gm�ۮm����7�ӷ��݀���OfB�3U!���p]�m�
+�.в�<�o�mi���.�I�-��9[��z��\���Q=��Ǚ��n����q��}JJs���R����C
+��S��9�A��ϓ2�f�7\������
+;��Eܞe�y>/Ҟ�'�_>�&������ypf護��|�r��>�!?lf�w�~8U#(�9�N��Q�Np�z8�����}�YԸ��Y`�z}w ���Ê�~a�N�,c�����.��*9*�dx#\��� ��R*��5�xW��|J���r�0�*!
++�71�*0�*	*�H����)�0�)�10	`�He 0\
++�7�N0L0
++�70	 ��� 010	`�He  ��2�k�o�$V�x�[��Jc@�e��,Q��.#��0��0����@�`ҜL�^ͩ����0	*�H�� 0b10	UUS10U
+DigiCert Inc10Uwww.digicert.com1!0UDigiCert Trusted Root G40210429000000Z360428235959Z0i10	UUS10U
+DigiCert, Inc.1A0?U8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10�"0	*�H�� � 0�
+� մ/B�(�x�]�9Y��B�3��=��pŻą&0���h�\��4$�KO�xC������gRO�W�����́>Mp$d���}4}L�WkC����;���GZ�L� %�Ӌ������	�e����I5�=Q�!xE.��,�����IpB2�����eh��ML�HRh��W]�e��O�,H�V�5��.�� �7���|��2������t��9��`��ֹ�1�ܭ����#GG��n��m���jg-ҽD����;	�Ǜ2Z��j`T�I����\�o�&��ղ�8��Α����o�a4\��E(�6*f(_�s΋&%���\�L�b�^3����
+��+��6y���u�e̻�HP�w���P�F�aX��|<�(�9��ԷS��G�u0��0�v�[K]taM?�v޿X�r)A���m&vhAX��&+�MY�xρJ>@G_ɁPs�#!Y`�dT��!�8|f�x8E0�O�cOL��SA|X=G����2	�l<V ��Y0�U0U�0� 0Uh7��;�_���a{�e�NB0U#0�����q]dL�.g?纘�O0U��0U%0
++0w+k0i0$+0�http://ocsp.digicert.com0A+0�5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0CU<0:08�6�4�2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0U 00g�0g�0	*�H�� � :#D=�v:��V���H4�,��tf��r� ʯl0'��D�K���|&�7�:]Hm��?I�'��EP������v~7q�"�Z�����j�� ��Py��������H~�؀�a��V���v���_C�>��v9=�ԙ�J�(�_&��XH���'?���v���`\�������9�8N�n�6���!SZ���j�>�C�3�O8�����Tm�]@3|╲�!usR�F��4��K��ov7,�?�&����C�� �p�����)5\�8U�7��	���1�.\9qᾜ�
+�&g���N_�z�I�.�t���<�����V+#����{pk栺�:?E����R�A�H�K�M�D@��(���V*/�d<3��(�<ˏ��;��{���˷�w��(?���/"lA��\f�l�ņ��&3K��jj@0HK4�Q ����Ym�P+�J�����t���R����H!�W;���E��an�h�&`��ȯ����c:�VxN0�J0�2���w���K�$�!o0	*�H�� 0i10	UUS10U
+DigiCert, Inc.1A0?U8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10220408000000Z250405235959Z0�10+�7<CN1 0+�7<西藏自治区10UPrivate Organization10U91540195754285145H10	UCN10U西藏自治区10U	拉萨市1-0+U
+$Wondershare Technology Group Co.,Ltd1-0+U$Wondershare Technology Group Co.,Ltd0�"0	*�H�� � 0�
+� ��\����x((ᑎ�"yqJ����mP��1X-�찹
+o��-TB�tօ	�Ǒ�9�qu]�n�l��.��5�O���ѳ##(4d�lDඩ$�S�oz[��G�+�%�6�rq���s�i��K��q��Ja�es(�C���u8��l������7.%�fȬJ�O�̈��X>��8��LD�2�+��]�G>����&fD��hsd�M��#�OR��l��ӳ������V{i�e.d�Ϣ鑳��
+���se�7�ad�P���
+0$�.�� ��p�����W�y���o�+N��zIj 6EYWE|�D��ۃ���}C�!��(���6p"<�G����;�����SuFK���P"��vAjo�)��g�� iۢ�vQ���}C�0pm9Ud��G.c���8���֢axv�/��劯5���VK�s�ODI��\�ыf��l��t|��<O���*2A�rf��I��u����HOR`ԅ��"w^���ݑ���ђ�=h���ߧTl�l�ҙFTG ��G0�C0U#0�h7��;�_���a{�e�NB0U�ӫ�W��n�I��;Q��<0@U907�5+�)0'%CN-西藏自治区-91540195754285145H0U��0U%0
++0��U��0��0S�Q�O�Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S�Q�O�Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0=U 60402g�0)0'+http://www.digicert.com/CPS0��+��0��0$+0�http://ocsp.digicert.com0\+0�Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0U�0 0	*�H�� � (�@|O_���L�����7���w(�_H����hR��Y�◓��Wd���O"^k"=C�>2���G�]��{@`�K�t^�`d�2-{���ײ�<l�i Pӓ��Ң�R�҂�N����8����O����=��)�,�eFX��b�ZM#�nD!�D�*�K^�=��2{�}�]�����Z�ʲ�����#���}��_5$��6#G���h�Lԏ�5��������L�g�^���u�*|�:7�Zq��ѓ�����El%��z �a����ث��L�������W2M�H"鯇�a2����VDuZ�>���](�=�� ��BE�L�~y��ņ�7b���B� �P�1-5"�Eқh���9� y����\�n��%6�_f��8d������%ĭ��yaw:=c�\�n��l��;�.6��oe�EBO\�8am���K���y�E4��C��Ey,	�Xx��/�*7�z%��Q�z��f�{ڏ�Z%����>�/���Y��1�~0�z0}0i10	UUS10U
+DigiCert, Inc.1A0?U8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1��w���K�$�!o0	`�He ���0
++�710 0
+*�H��	10	*�H��	1
++�70
++�710
++�70/	*�H��	1" ��w%8�q��LI��J�?Z�ח[�g�*��0	*�H�� � ��Df�rW�B=�]��K������e��{�À��F�hsp$Cl]yօ3̄�2��B8D#9��5o�?��.s-�fS��"�[�b&�ڝ�WoE�����ޑM�/����mn i>ȿ� 
+÷�d��԰N�pt���=���G2~���,F�1=E,7�.�/K�5𙮴��Ӑ��Ժq�5�"�^
+[�͑����e�p�r�"y�(t����l���Ǔ���&����FB"*'�$��%�pxr���?EB-SæѺ���M��{���9�a�����^dd*D�#~ű����8Cܷh[�R/��LYʚ��W�(T\OV�#��NI)�_1���-%��:��'�7��c@�y�߫80x %Nb�f�Pe�U\�̎j�V�Q9
+� �Q���ԧ����I�~�{�*5�k_qJ��)���Mxٶ"�
+�.�u�A�g�������+@�H���Cjԑ빏�1�d7$�[S��T#:�E�c�a����@0�<
++�71�,0�(	*�H����0�10	`�He 0x*�H��	�ig0e	`�H��l010	`�He  ���8U�WFkPTX
+���@��f�J2��� ɣ�cV�(�7���C.(20240625080458Z��	0��0���D��9���?_�a0	*�H�� 0c10	UUS10U
+DigiCert, Inc.1;09U2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0230714000000Z341013235959Z0H10	UUS10U
+DigiCert, Inc.1 0UDigiCert Timestamp 20230�"0	*�H�� � 0�
+� �SE���[�>T�#�ϟ����]�	�/H��z;*�g�bX����ͪ�j�)�bci�X�5q�:��P� �ǚ;/�f�i�i�[��+ �����P�����0hʃB��	$����j��;�]���E�al��q^��<��.yfR���>_�Cӄ����H-^Eu�u�������R��G�x)9k�xY��D+JՕ���dM�#�ʆ!dp����c�.���$�����_���v}1�eGU�J$/�+�����{s>2�R4�Ի�Ԡ,4���nd7��QͪLf��hb��Axm���XA�ر,�Q����b�i|dM����^���Pɳʼ��;hD��;B�s}��
+�y4~�\
+XL >�iuǃd�u͏vV�$���k!��4�/:�k���*��{R8��	�q�lq�>�o����aG
+�������l$�B�ʠq=����ip'O��6��_�p��
+�.d��"+��(!IQ~f�;���8�Qʔ��P��:ӊ��@{ ���0��0U��0U�0 0U%�0
++0 U 00g�0	`�H��l0U#0���mM�/s)v�/u�j ���o0U�������d��V�e1����I0ZUS0Q0O�M�K�Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0��+��0��0$+0�http://ocsp.digicert.com0X+0�Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0	*�H�� � ��ޠ����p�O�<h��%��,���]"��"��π������&��q/�N��l��`�+��=H��k�|]��a7hIw�됪�'�����@8�]Ƞ.%x%�*z�)��Wy��&V+��7ؘvOV�R¶�8���mA\�iѹ+��{Ϝ�x�v�iu�P�D� ��D���IwZ!ŴϘ�T����i���74n�A&��Z�O3�ԍw}uE��X&jE��P�P��V�L��F�(ӭ�C p�̘���ԑ7�MR��`!�VG��K�2È�X��>�_�B֏��Ѫ�Uㆿ�',AК3J�6Թr�~�y8H_���=2�u�6gZ������O5< ���*ly��D�:�8;^9X�|s1U���~�����ye�h�"�;뚂5W(�i�2����:��F�k���wll���s:�IF��̶8�������C,�NL}hp�w
+��\`�(�8�RZ֬"#N����Pk�wq�DAɸF�l2|X/gGe�s���k,F�A��_��٭��D��A�0��0���67�$T|�G��(f*^[0	*�H�� 0b10	UUS10U
+DigiCert Inc10Uwww.digicert.com1!0UDigiCert Trusted Root G40220323000000Z370322235959Z0c10	UUS10U
+DigiCert, Inc.1;09U2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0�"0	*�H�� � 0�
+� Ɔ5I��=rIQU�%��7��Q��҃ўL�m��̃�Z��DB_���h�}���3P&s�m�W�}�C����s���+���"���=��+>B�g��Q=��V��(-�ӱ�u�e��)���i�ِ�F {�DA��|jWz�7y�]���d�R�vG�a��_�T!hn7!�@�_��J}��9g��cl���6\����dt@��rźN��XMy�׏s��,9�H��1�W)�'.����NvU&p�&�G C�Cc�{un'%��:8�����;[��"ق*ǒ����>�s��Zl��R�+Xt@(�sC��J�k8�)�ʪ�sBh��F��:����<�B�H4��L��=��d*�u($A�B��fIRP�Q�6IM� �,W5y+��E`�#�X��aޓ�9���0�L��JX>������^KvQ�Ɍ;[�"��&�}_#�d�c��>��t�?	v�]Fu�`�X	( �T���]�^0�F���v��k��3�ͱ ��]0�Y0U�0� 0U��mM�/s)v�/u�j ���o0U#0�����q]dL�.g?纘�O0U��0U%0
++0w+k0i0$+0�http://ocsp.digicert.com0A+0�5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0CU<0:08�6�4�2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 U 00g�0	`�H��l0	*�H�� � }Y����o��D"~f��!B�.M�0Sο��P]�K)�p��)i�i���>`���\[�m��� %41gͶ�o�PLb����V�s�"%Εi?Gw�rt���O�,z���C_�`��O�f�,��������d&�l���|�p
+|屮uO�Z���]��(T��Պqve���r�#��'�D��'�$&���*����y���V��
+E��č������r�����jq���	Ķ�͇�$�O�I�wf��r��KR�7~�S�;I��9z��%c�',=?k��f�A�O�@�!!@з$��x:䞭�4q��&k�8s��O�?;x�L��ĕ{�
+_39�Axz8���#�(�����_�+�~�F�u,',&�o{�6������Y�p�7�� � O'�`g�f��U�:)����+�A�:��1�b	
+��������Wټ���2��� �]���# �v&��evB�)�	G+�������UT+����+����/DJ��78�+���|�0��0�u�����-���P�@Z0	*�H�� 0e10	UUS10U
+DigiCert Inc10Uwww.digicert.com1$0"UDigiCert Assured ID Root CA0220801000000Z311109235959Z0b10	UUS10U
+DigiCert Inc10Uwww.digicert.com1!0UDigiCert Trusted Root G40�"0	*�H�� � 0�
+� ��sh޻�]J<0"0i3�§%.�!=��Y��)�=X�v�ͮ{��0��8�VƗm��y����_�<RRƞ�~���WYUr�h�p²�u�js2��D.߂���t;mq�-� �� c)-��^Nȓ�!a�4��^�[����ͬ4@_�zf�w�H�fWW�TX�+�O�0�V��{]��O^�5�1�ړ^܎��ڶ��@�y�xǶ�ĵj8���7�.}���>�p�U�A2��s*n�|!LԼ�u]xf�:1D�3@��ZI��橠gݤ'��O9�X�$\F�d��i�v�v=Y]Bv���izH��f�t��K�c���:�=� �E%���D+~����am�3���K �}�Ï�!�����Ռp,A`��cD�vb~�����d�3щί�C���w��!�T)%�l�RQGt�&��Au�z�_�?ɼ�A[�P�1��r"	�|Lu?c�!_� Qko����O��E_� �������~
+&���i/�-�٩�� ��:0�60U�0�0U����q]dL�.g?纘�O0U#0�E뢯��˂1-Q���!��m�0U��0y+m0k0$+0�http://ocsp.digicert.com0C+0�7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0EU>0<0:�8�6�4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0U 
+00U  0	*�H�� � p��C\U�8_��t=����W�����,�^��"��iT"���wm��Jz/-�8���������r�$�R�N�*��-V�����0z���^���CD�C!�r�H��˝O�w'D���Y��/���4<��Ǉ��L@5FjiT���V���=�����wZ\T�o�P=�v	h��o�� �5`� ��X�@cŘ"��Y�Uk�'�lv�o#-�~qj#k"��T-'~�:�𶇖�[�\��M�s���W�^(⹔1�v0�r0w0c10	UUS10U
+DigiCert, Inc.1;09U2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CAD��9���?_�a0	`�He ���0	*�H��	1*�H��	0	*�H��	1240625080458Z0+*�H��	1000f�+2����]Ϊ���O��@0/	*�H��

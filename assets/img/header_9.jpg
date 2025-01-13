@@ -1,0 +1,273 @@
+<Language language="English(English)">
+  <Default>
+	<Font From="Segoe UI" To="Arial" FailTo="Tahoma" />
+  </Default>  
+  <Strings>
+    <Item Name="emailempty">
+      <Text><![CDATA[Пожалуйста, введите свой адрес электронной почты.]]></Text>
+    </Item>
+	<Item Name="passwordempty">
+      <Text><![CDATA[Пожалуйста, Введите Пароль]]></Text>
+    </Item>
+	<Item Name="passwordconfirm" >
+      <Text><![CDATA[Пожалуйста, Подтвердите Свой Пароль]]></Text>
+    </Item>
+	<Item Name="firstnameempty">
+      <Text><![CDATA[Пожалуйста, Введите Имя]]></Text>
+    </Item>
+	<Item Name="lastnameempty">
+      <Text><![CDATA[Пожалуйста, Введите Фамилию]]></Text>
+    </Item>
+	<Item Name="emaillength">
+      <Text><![CDATA[Пароль должен состоять из 100 символов или цифр.]]></Text>
+    </Item>
+	<Item Name="passwordsame">
+      <Text><![CDATA[Пароли не совпадают. Пожалуйста, проверьте и подтвердите еще раз.]]></Text>
+    </Item>
+	<Item Name="emailexist">
+      <Text><![CDATA[Учетная запись уже существует.]]></Text>
+    </Item>	
+	<Item Name="emailnoexist">
+      <Text><![CDATA[Такая учетная запись не существует. Войдите в другую учетную запись или создайте новую.]]></Text>
+    </Item>
+	<Item Name="emailvlaue">
+      <Text><![CDATA[E-mail: %1]]></Text>
+    </Item>
+	<Item Name="requesterror">
+      <Text><![CDATA[Ошибка Сети. Пожалуйста, проверьте свою сеть.]]></Text>
+    </Item>	
+	
+	<Item Name="logosuccess">
+      <Text><![CDATA[Успешный вход в систему!]]></Text>
+    </Item>	
+	<Item Name="logonout">
+      <Text><![CDATA[Выйти]]></Text>
+    </Item>
+	<Item Name="expireddate">
+      <Text><![CDATA[Дата Истечения Срока Действия: %1]]></Text>
+    </Item>	
+	<Item Name="expired">
+      <Text><![CDATA[Срок действия истек]]></Text>
+    </Item>	
+	<Item Name="clicklogin">
+      <Text><![CDATA[Нажмите здесь, чтобы войти в программу]]></Text>
+    </Item>
+	<Item Name="devicelimit">
+      <Text><![CDATA[Превышен лимит устройства.]]></Text>
+    </Item>
+	<Item Name="lefttime">
+      <Text><![CDATA[Неограниченный срок]]></Text>
+    </Item>
+	<Item Name="autologerror">
+      <Text><![CDATA[Получение данных происходит ненормально, пожалуйста, войдите снова.]]></Text>
+    </Item>
+
+	
+	<Item Name="datarecoverytitle">
+      <Text><![CDATA[Recoverit - Восстановление Данных]]></Text>
+    </Item>
+	<Item Name="datarecoverydesc">
+      <Text><![CDATA[Универсальное Решение для Восстановления Всех Потерянных Данных]]></Text>
+    </Item>
+	<Item Name="winpetitle">
+      <Text><![CDATA[Recoverit - Загрузочный Toolkit]]></Text>
+    </Item>
+	<Item Name="winpedesc">
+      <Text><![CDATA[Создайте загрузочный USB для восстановления файлов при сбое системы]]></Text>
+    </Item>
+	<Item Name="advancevideorecovertitle">
+      <Text><![CDATA[Recoverit - Расширенное Восстановление]]></Text>
+    </Item>
+	<Item Name="advancevideorecoverdesc">
+      <Text><![CDATA[Восстановить фрагменты видео из того же видео]]></Text>
+    </Item>	
+	
+	<Item Name="videorecoverytitle">
+      <Text><![CDATA[Repairit - Video repair]]></Text>
+    </Item>
+	<Item Name="videorecoverydesc">
+      <Text><![CDATA[Repair corrupted videos.]]></Text>
+    </Item>
+	 <Item Name="photorecoverytitle">
+      <Text><![CDATA[Repairit - Photo repair]]></Text>
+    </Item>
+	 <Item Name="photorecoverydesc">
+      <Text><![CDATA[Repair corrupted photos.]]></Text>
+    </Item>	
+	 <Item Name="repairitdesc">
+      <Text><![CDATA[Repair damaged files.]]></Text>
+    </Item>
+	<Item Name="documentrecoverytitle">
+      <Text><![CDATA[Repairit - File repair]]></Text>
+    </Item>
+	<Item Name="documentrecoverydesc">
+      <Text><![CDATA[Repair corrupted files.]]></Text>
+    </Item>
+	
+  </Strings>
+  <Control Name="LogoNameFrame">  
+     <Item Name="labelTitle" property="label">
+      <Text><![CDATA[Войти в свой<br>Wondershare ID]]></Text>
+    </Item>
+	<Item Name="lineEdit" property="lineEdit">
+      <Text><![CDATA[E-mail]]></Text>
+    </Item>
+	<Item Name="btnNext" property="button">
+      <Text><![CDATA[Далее]]></Text>
+    </Item>
+	<Item Name="labelDesc" property="label">
+      <Text><![CDATA[У вас нет Wondershare ID? <style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Создать учетную запись.</font></a>.]]></Text>
+    </Item>
+  </Control>
+  <Control Name="LogoPassWordFrame">  
+     <Item Name="labelTitle" property="label">
+      <Text><![CDATA[Пожалуйста, Введите Пароль]]></Text>
+    </Item>
+	<Item Name="lineEdit" property="lineEdit">
+      <Text><![CDATA[Пароль / Регистрационный Код]]></Text>
+    </Item>
+	<Item Name="btnNext" property="button">
+      <Text><![CDATA[Войти]]></Text>
+    </Item>
+	<Item Name="labelBack" property="label">
+      <Text><![CDATA[<style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Войти в другую учетную запись</font></a>]]></Text>
+    </Item>
+	<Item Name="labelForget" property="label">
+      <Text><![CDATA[<style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Забыли свой пароль?</font></a>]]></Text>
+    </Item>
+  </Control>
+  <Control Name="LockPasswordFrame">  
+     <Item Name="labelDesc" property="label">
+      <Text><![CDATA[Учетная запись была заблокирована из-за неправильного ввода пароля более 5 раз.]]></Text>
+    </Item>
+	<Item Name="labelVerify" property="label">
+      <Text><![CDATA[<style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Подтвердите личность</font></a>]]></Text>
+    </Item>	
+  </Control>
+  <Control Name="WAFHintFrame">  
+    <Item Name="labelTitle" property="label">
+      <Text><![CDATA[Успешно.]]></Text>
+    </Item>	
+	<Item Name="labelDesc" property="label">
+      <Text><![CDATA[Recoverit обновил Account Center.<br>Мы предлагаем войти через Wondershare ID, чтобы получить всю информацию об Учетной записи.]]></Text>
+    </Item>	
+	<Item Name="labelEmail" property="label">
+      <Text><![CDATA[Wondershare ID:]]></Text>
+    </Item>	
+    <Item Name="btnSet" property="button">
+      <Text><![CDATA[Установить Пароль Сейчас]]></Text>
+    </Item>
+	<Item Name="labelLogo" property="label">
+      <Text><![CDATA[<style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Использовать Пароль, чтобы войти снова.</font></a>]]></Text>
+    </Item>	
+  </Control>
+  <Control Name="CreateAccountFrame">  
+     <Item Name="labelTitle" property="label">
+      <Text><![CDATA[Зарегистрируйте свой Wondershare ID]]></Text>
+    </Item>
+	<Item Name="lineEditEmail" property="lineEdit">
+      <Text><![CDATA[E-mail]]></Text>
+    </Item>
+	<Item Name="lineEditPassword" property="lineEdit">
+      <Text><![CDATA[Пароль]]></Text>
+    </Item>
+	<Item Name="lineEditConfirm" property="lineEdit">
+      <Text><![CDATA[Подтвердить Пароль]]></Text>
+    </Item>
+	<Item Name="lineEditFirstName" property="lineEdit">
+      <Text><![CDATA[Имя]]></Text>
+    </Item>
+	<Item Name="lineEditLastName" property="lineEdit">
+      <Text><![CDATA[Фамилия]]></Text>
+    </Item>
+	<Item Name="btnCreate" property="button">
+      <Text><![CDATA[Создать Учетную Запись]]></Text>
+    </Item>
+	<Item Name="labelBack" property="label">
+      <Text><![CDATA[<style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Вернуться к входу</font></a>]]></Text>
+    </Item>
+	<Item Name="labelDesc" property="label">
+      <Text><![CDATA[Нажимая <style> a {text-decoration: none} </style><a href="#1"><font color=#007BFF>Создать Учетную Запись</font></a> Создать Учетную Запись, я подтверждаю, что прочитал и принимаю <style> a {text-decoration: none} </style><a href="#2"><font color=#007BFF>Условия использования и Политику конфиденциальности</font></a>.]]></Text>
+    </Item>
+  </Control>
+  <Control Name="UserCenterFrame">  
+     <Item Name="labelText1" property="label">
+      <Text><![CDATA[Восстановить файл для любого сценария.]]></Text>
+    </Item>
+	<Item Name="btnBuy" property="button">
+      <Text><![CDATA[Купить]]></Text>
+    </Item>	
+	<Item Name="labelText2" property="label">
+      <Text><![CDATA[<style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Узнать Больше</font></a>]]></Text>
+    </Item>
+	<Item Name="labelAccount" property="label">
+      <Text><![CDATA[<style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Управление Моей Учетной Записью</font></a>]]></Text>
+    </Item>
+	<Item Name="labelChange" property="label">
+      <Text><![CDATA[<style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Изменить Пароль</font></a>]]></Text>
+    </Item>
+   </Control>
+   <Control Name="AutherInfoBannerFrame">  
+    <Item Name="btnBuy" property="button">
+      <Text><![CDATA[Купить]]></Text>
+    </Item>	
+     <Item Name="labelPurchased" property="label">
+      <Text><![CDATA[Куплено]]></Text>
+    </Item>	
+  </Control>
+   <Control Name="TrailBannerFrame">  
+     <Item Name="btnBuy" property="button">
+      <Text><![CDATA[Купить]]></Text>
+    </Item>	
+	<Item Name="labelText2" property="label">
+      <Text><![CDATA[<style> a {text-decoration: none} </style><a href="#"><font color=#007BFF>Узнать Больше</font></a>]]></Text>
+    </Item>
+  </Control>
+</Language>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <Language language="Chinese Traditional(中國香港)">
+	<Default>
+		<Font From="Microsoft JhengHei UI" To="Tahoma" FailTo="Arial" />
+	</Default>  
+	<Strings>
+		<Item Name="versionvalue">
+			<Text>
+				<![CDATA[版本：]]>
+			</Text>
+		</Item>
+		<Item Name="copyrightvalue">
+			<Text>
+				<![CDATA[© 2023 萬興科技集團股份有限公司 版權所有]]>
+			</Text>
+		</Item>
+		<Item Name="aboutdialogvistor">
+			<Text>
+				<![CDATA[]]>
+			</Text>
+		</Item>
+		<Item Name="laboutdialogcompanylink">
+			<Text>
+				<![CDATA[公司官網]]>
+			</Text>
+		</Item>
+		<Item Name="aboutdialogproductlink">
+			<Text>
+				<![CDATA[產品概述]]>
+			</Text>
+		</Item>
+	</Strings>
+	<Form Name="splashscreen">  
+		<Item Name="labeLoading" Property="label">
+			<Text>
+				<![CDATA[載入中…]]>
+			</Text>
+		</Item>
+	</Form>
+	<Form Name="aboutdialog">  
+		<Item Name="lblTextCenter" Property="label">
+			<Text>
+				<![CDATA[萬興科技（300624.SZ）成立於2003年，並於2018年登陸A股創業板，是全球領先的新生代數字創意賦能者。公司以“讓世界更有創意”為使命，面向全球海量新生代互聯網用戶提供潮流前沿、簡單便捷的數字創意軟件產品與服務，業務範圍遍及全球200多個國家和地區。
+
+了解更多信息，請訪問：]]>
+			</Text>  
+		</Item>
+	</Form>
+</Language>                                                                                                                                                                                                              
