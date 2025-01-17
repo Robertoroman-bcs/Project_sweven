@@ -35,10 +35,7 @@
                                         <th>ID</th>
                                         <th>NOMBRE</th>
                                         <th>E-MAIL</th>
-
                                         <th>TELEFONO</th>
-
-
                                         <th>ESTADO</th>
                                         <th>TIPO USUARIO</th>
                                         <th>CARGO</th>
@@ -90,52 +87,54 @@
 
 
                                             <td>
-                                                <div style="display: flex;" class="btn-action">
-                                                    <!-- Botón de eliminar con icono -->
-                                                    <form action="../../../controllers/eliminarUsuarioController.php"
-                                                        method="POST"
-                                                        onsubmit="return confirm('¿Estás seguro de eliminar a este Usuario?')">
-                                                        <input type="hidden" name="id_usuario"
-                                                            value="<?php echo $row['id_usuario']; ?>">
-                                                        <button class="btn btn-danger btn-icon" type="submit"
-                                                            title="Eliminar Usuario">
-                                                            <i class="fas fa-trash-alt"></i>
-                                                            <!-- Icono de Font Awesome -->
-                                                        </button>
-                                                    </form>
-                                                </div>
-                                                <div style="display: flex;" class="btn-action">
-                                                    <!-- Botón de eliminar con icono -->
-                                                    <form action="../../../controllers/eliminarUsuarioController.php"
-                                                        method="POST"
-                                                        onsubmit="return confirm('¿Estás seguro de eliminar a este Usuario?')">
-                                                        <input type="hidden" name="id_usuario"
-                                                            value="<?php echo $row['id_usuario']; ?>">
-                                                        <button class="btn btn-info btn-icon" type="submit"
-                                                            title="Eliminar Usuario">
-                                                            <i class="far fa-edit"></i>
-                                                            <!-- Icono de Font Awesome -->
-                                                        </button>
-                                                    </form>
-                                                </div>
-                                                <div style="display: flex;">
-                                                    <button id="eliminarUser" type="button"
-                                                        class="btn btn-warning eliminarUser" data-toggle="modal"
-                                                        onclick="confirmarEliminacion(this)"
-                                                        data-id="<?php echo $row['id_usuario']; ?>"
-                                                        data-nombre="<?php echo $row['nombre_usuario']; ?>"
-                                                        data-apellido="<?php echo $row['apellidos']; ?>"
-                                                        data-email="<?php echo $row['email']; ?>"
-                                                        data-fechanacimiento="<?php echo $row['fecha_nacimiento']; ?>"
-                                                        data-telefono="<?php echo $row['telefono']; ?>"
-                                                        data-contraseña="<?php echo $row['contraseña']; ?>"
-                                                        data-creacionusuario="<?php echo $row['fecha_creacion_usuario']; ?>"
-                                                        data-estado="<?php echo $row['estado']; ?>"
-                                                        data-nomrol="<?php echo $row['nombre_rol']; ?>"
-                                                        data-nomcargo="<?php echo $row['nombre_cargo']; ?>"
-                                                        data-nomarea="<?php echo $row['nombre_area']; ?>">
+                                                <div class="d-flex">
+                                                    <div style="display: flex;" class="btn-action">
+                                                        <!-- Botón de eliminar con icono -->
+                                                        <form action="../../../controllers/eliminarUsuarioController.php"
+                                                            method="POST"
+                                                            onsubmit="return confirm('¿Estás seguro de eliminar a este Usuario?')">
+                                                            <input type="hidden" name="id_usuario"
+                                                                value="<?php echo $row['id_usuario']; ?>">
+                                                            <button class="btn btn-danger btn-icon" type="submit"
+                                                                title="Eliminar Usuario">
+                                                                <i class="fas fa-trash-alt"></i>
+                                                                <!-- Icono de Font Awesome -->
+                                                            </button>
+                                                        </form>
+                                                    </div>
+                                                    <div style="display: flex;" class="btn-action">
+                                                        <!-- Botón de eliminar con icono -->
+                                                        <form action="../../../controllers/eliminarUsuarioController.php"
+                                                            method="POST"
+                                                            onsubmit="return confirm('¿Estás seguro de eliminar a este Usuario?')">
+                                                            <input type="hidden" name="id_usuario"
+                                                                value="<?php echo $row['id_usuario']; ?>">
+                                                            <button class="btn btn-info btn-icon" type="submit"
+                                                                title="Eliminar Usuario">
+                                                                <i class="far fa-edit"></i>
+                                                                <!-- Icono de Font Awesome -->
+                                                            </button>
+                                                        </form>
+                                                    </div>
+                                                    <div style="display: flex;">
+                                                        <button id="eliminarUser" type="button"
+                                                            class="btn btn-warning eliminarUser" data-toggle="modal"
+                                                            onclick="confirmarEliminacion(this)"
+                                                            data-id="<?php echo $row['id_usuario']; ?>"
+                                                            data-nombre="<?php echo $row['nombre_usuario']; ?>"
+                                                            data-apellido="<?php echo $row['apellidos']; ?>"
+                                                            data-email="<?php echo $row['email']; ?>"
+                                                            data-fechanacimiento="<?php echo $row['fecha_nacimiento']; ?>"
+                                                            data-telefono="<?php echo $row['telefono']; ?>"
+                                                            data-contraseña="<?php echo $row['contraseña']; ?>"
+                                                            data-creacionusuario="<?php echo $row['fecha_creacion_usuario']; ?>"
+                                                            data-estado="<?php echo $row['estado']; ?>"
+                                                            data-nomrol="<?php echo $row['nombre_rol']; ?>"
+                                                            data-nomcargo="<?php echo $row['nombre_cargo']; ?>"
+                                                            data-nomarea="<?php echo $row['nombre_area']; ?>">
 
-                                                        <i class="fas fa-eye"></i></button>
+                                                            <i class="fas fa-eye"></i></button>
+                                                    </div>
                                                 </div>
                                             </td>
 
@@ -329,9 +328,10 @@
 
 
 
-<!-- Modal de confirmación de eliminación -->
-<div class="modal-dialog modal-xl fade" id="modalEliminar" tabindex="-1" role="dialog"
-    aria-labelledby="modalEliminarLabel" aria-hidden="true">
+<!-- Modal de confirmación de eliminación id="modalEliminar" -->
+
+<div class="modal fade" id="modalEliminar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -377,7 +377,7 @@
                     <div class="col-6">
                         <div class="mb-3">
                             <label for="ID" class="form-label">CONTRASEÑA:</label><br>
-                            <span id="contraseña_usuario_modal"></span>
+                            <span class="col-12" id="contraseña_usuario_modal"></span>
                         </div>
                     </div>
                     <div class="col-6">
@@ -390,6 +390,7 @@
                         <div class="mb-3">
                             <label for="ID" class="form-label">ESTADO:</label><br>
                             <span id="estado_usuario_modal"></span>
+                            esta
                         </div>
                     </div>
                     <div class="col-6">
@@ -422,7 +423,6 @@
         </div>
     </div>
 </div>
-
 
 
 <script>
@@ -523,6 +523,8 @@
 
 
     */
+
+
 
 
 

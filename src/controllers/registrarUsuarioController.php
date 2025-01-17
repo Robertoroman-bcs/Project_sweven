@@ -187,7 +187,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         die("Error al preparar la consulta: " . $conexion->error);
     }
 
-    $fechaFormateada = date('Y/m/d', strtotime($fecha_nacimiento));
+    //$fechaFormateada = date('Y/m/d', strtotime($fecha_nacimiento));
+    $fechaFormateada = date('Y-m-d', strtotime(str_replace('/', '-', $fecha_nacimiento)));
 
     // Vincular los parámetros para la inserción
     $stmt->bind_param(

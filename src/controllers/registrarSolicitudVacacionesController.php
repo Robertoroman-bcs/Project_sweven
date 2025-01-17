@@ -35,11 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $fecha_fin_objeto = DateTime::createFromFormat('d/m/Y', $fecha_termino);
     $fecha_labores_objeto = DateTime::createFromFormat('d/m/Y', $fecha_inicio_labores);
 
-    // Calcular la diferencia entre fecha_inicio y fecha_fin
-    $diferencia = $fecha_fin_objeto->diff($fecha_inicio_objeto);
-    $dias_solicitados = $diferencia->days;  // Total de días entre las dos fechas
 
-    // Para obtener las fechas en el formato adecuado para MySQL, si es necesario
     $fecha_inicio_format = $fecha_inicio_objeto->format('Y-m-d');
     $fecha_fin_format = $fecha_fin_objeto->format('Y-m-d');
     $fecha_labores_format = $fecha_labores_objeto->format('Y-m-d');
@@ -47,7 +43,59 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 
-    $sql = "INSERT INTO solicitudes_vacaciones (id_usuario , id_area ,   dias_solicitados, fecha_inicio, fecha_termino, fecha_inicio_labores) VALUES (?, ?, ?, ?, ?, ?)";
+
+    function calcularDiasLaboralesDB($fechaInicial, $fechaFinal, $conexion)
+    {
+
+        $inicio = $fechaInicial;
+        $fin = $fechaFinal;
+        $fin->modify('+1 day'); // Incluir la fecha de finalización
+        $intervalo = new DatePeriod($inicio, new DateInterval('P1D'), $fin);
+
+        $consulta = mysqli_query($conexion, "SELECT dia_semana FROM dias_laborales WHERE es_laboral = 1");
+
+        $diasLaborales = [];
+        while ($fila = $consulta->fetch_assoc()) {
+            $diasLaborales[] = $fila['dia_semana'];
+        }
+
+        $conteo = 0;
+        foreach ($intervalo as $fecha) {
+            $diaSemana = $fecha->format('N'); // 1 (Lunes) a 7 (Domingo)
+            if (in_array($diaSemana, $diasLaborales)) {
+                $conteo++;
+            }
+        }
+
+        return $conteo;
+    }
+
+
+
+    $dias_solicitados = calcularDiasLaboralesDB($fecha_inicio_objeto, $fecha_fin_objeto, $conexion);
+
+    //echo '       FECHA INICIO: '  . $fecha_inicio_format . '        FECHA FIN: ' . $fecha_fin_format . '        FECHA REGRESO A TRABAJO: ' . $fecha_labores_format . ' Dias que faltara: ' . $dias_solicitados;
+
+    /*
+
+    // Calcular la diferencia entre fecha_inicio y fecha_fin
+    $diferencia = $fecha_fin_objeto->diff($fecha_inicio_objeto);
+    $dias_solicitados = $diferencia->days;  // Total de días entre las dos fechas
+*/
+    // Para obtener las fechas en el formato adecuado para MySQL, si es necesario
+
+
+    /*
+
+
+    $fecha_inicio_format = $fecha_inicio_objeto->format('Y-m-d');
+    $fecha_fin_format = $fecha_fin_objeto->format('Y-m-d');
+    $fecha_labores_format = $fecha_labores_objeto->format('Y-m-d');
+*/
+
+
+
+    $sql = "INSERT INTO solicitudes_vacaciones (id_usuario , id_area ,  dias_solicitados, fecha_inicio, fecha_termino, fecha_inicio_labores) VALUES (?, ?, ?, ?, ?, ?)";
 
     $stmt = $conexion->prepare($sql);
     if ($stmt === false) {
