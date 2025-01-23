@@ -1,1 +1,1 @@
-src/Document/*.pdf
+src/Document/**/*.pdf
