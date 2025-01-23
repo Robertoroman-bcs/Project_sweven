@@ -172,7 +172,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     function errorusuario()
     {
-        header("location:../views/Dashboard/Administrador/lista_bancaria.php?errorusuario=1");
+        header("location:../views/Dashboard/Administrador/lista_bancaria.php?errorbanco=1");
     }
 
 
@@ -241,3 +241,106 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $conexion->close();
     }
 }
+
+
+/*
+require_once("../../config/config.php");
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // Validar y sanitizar los datos de entrada
+    $id_usuario = isset($_POST['id_usuario']) ? trim($_POST['id_usuario']) : null;
+    $nombre_banco = isset($_POST['nombre_banco']) ? trim($_POST['nombre_banco']) : null;
+    $num_cuenta = isset($_POST['num_cuenta']) ? trim($_POST['num_cuenta']) : null;
+    $clabe_interbancaria = isset($_POST['clabe_interbancaria']) ? trim($_POST['clabe_interbancaria']) : null;
+    $sueldo = isset($_POST['sueldo']) ? trim($_POST['sueldo']) : null;
+    $solicitud_tarjeta = isset($_POST['solicitud_tarjeta']) ? trim($_POST['solicitud_tarjeta']) : null;
+
+    // Verificar que los campos no estén vacíos
+    if (empty($id_usuario) || empty($nombre_banco) || empty($num_cuenta) || empty($clabe_interbancaria) || empty($sueldo) || empty($solicitud_tarjeta)) {
+        // Redirigir a la página con un mensaje de error si faltan campos
+        header("Location: ../views/Dashboard/Administrador/lista_bancaria.php?error=campos_vacios");
+        exit();
+    }
+
+    // Iniciar la transacción de base de datos
+    $conexion->begin_transaction();
+
+    // Función para redirigir con un error
+    function redirigirConError($mensaje)
+    {
+        header("Location: ../views/Dashboard/Administrador/lista_bancaria.php?error=" . urlencode($mensaje));
+        exit();
+    }
+
+    try {
+        // Verificar si el usuario ya existe en la tabla tbl_bancarios
+        $sql_check_user = "SELECT COUNT(*) FROM tbl_bancarios WHERE id_usuario = ?";
+        $stmt_check = $conexion->prepare($sql_check_user);
+        if ($stmt_check === false) {
+            throw new Exception("Error al preparar la consulta de validación: " . $conexion->error);
+        }
+
+        // Vincular el id_usuario para la consulta de verificación
+        $stmt_check->bind_param("i", $id_usuario);
+        $stmt_check->execute();
+        $stmt_check->bind_result($usuario_count);
+        $stmt_check->fetch();
+        $stmt_check->close();
+
+        // Si el usuario ya está registrado, redirigir con un mensaje de error
+        if ($usuario_count > 0) {
+            return redirigirConError('El usuario ya tiene datos bancarios registrados.');
+        }
+
+        // Preparar la consulta para insertar los datos bancarios
+        $sql = "INSERT INTO tbl_bancarios (nom_banco, num_cuenta, clabe_interbancaria, sueldo_neto_mensual, solicitud_tarj_nominal, id_usuario) 
+                VALUES (?, ?, ?, ?, ?, ?)";
+        $stmt = $conexion->prepare($sql);
+        if ($stmt === false) {
+            throw new Exception("Error al preparar la consulta de inserción: " . $conexion->error);
+        }
+
+        // Vincular los parámetros para la inserción
+        $stmt->bind_param("sssssi", $nombre_banco, $num_cuenta, $clabe_interbancaria, $sueldo, $solicitud_tarjeta, $id_usuario);
+
+        // Ejecutar la consulta de inserción
+        if (!$stmt->execute()) {
+            throw new Exception("Error al guardar el registro: " . $stmt->error);
+        }
+
+        // Commit de la transacción
+        $conexion->commit();
+
+        // Obtener el rol del usuario desde la sesión
+        $role = $_SESSION['id_rol']; // Asume que la sesión está configurada con el rol
+
+        // Redirigir según el rol
+        if ($role == '1') {
+            header("Location: ../views/Dashboard/Administrador/lista_bancaria.php?success=registro_exitoso");
+        } else if ($role == '4') {
+            header("Location: ../views/Dashboard/RH/lista_bancaria.php?success=registro_exitoso");
+        } else {
+            // Redirigir a una página de error si el rol no es válido
+            header("Location: ../views/error.php?error=acceso_denegado");
+        }
+        exit();
+    } catch (Exception $e) {
+        // Si ocurre algún error, hacer rollback de la transacción
+        $conexion->rollback();
+
+        // Registrar el error en el log (seguridad)
+        error_log("Error al registrar los datos bancarios: " . $e->getMessage());
+
+        // Redirigir con un mensaje de error
+        redirigirConError('Error al guardar los datos, intente nuevamente.');
+    } finally {
+        // Cerrar las declaraciones y conexiones
+        if (isset($stmt_check)) {
+            $stmt_check->close();
+        }
+        if (isset($stmt)) {
+            $stmt->close();
+        }
+        $conexion->close();
+    }
+}*/

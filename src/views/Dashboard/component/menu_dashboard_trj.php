@@ -54,18 +54,6 @@
                                  <p>Mi información</p>
                              </a>
                          </li>
-                         <li class="nav-item">
-                             <a href="../Trabajador/lista_usuarios.php" class="nav-link menu-item">
-                                 <i class="far fa-circle nav-icon"></i>
-                                 <p>Datos Bancarios</p>
-                             </a>
-                         </li>
-                         <li class="nav-item">
-                             <a href="../Trabajador/lista_usuarios.php" class="nav-link menu-item">
-                                 <i class="far fa-circle nav-icon"></i>
-                                 <p>Mi Documentación</p>
-                             </a>
-                         </li>
                      </ul>
                  </li>
                  <li class="nav-item">
