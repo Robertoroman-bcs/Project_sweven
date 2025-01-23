@@ -66,6 +66,12 @@
                                  <p>Lista Documentacion</p>
                              </a>
                          </li>
+                         <li class="nav-item">
+                             <a href="../Mando_medio/panel_control.php" class="nav-link menu-item">
+                                 <i class="far fa-circle nav-icon"></i>
+                                 <p>Panel Control</p>
+                             </a>
+                         </li>
                      </ul>
                  </li>
                  <li class="nav-item">

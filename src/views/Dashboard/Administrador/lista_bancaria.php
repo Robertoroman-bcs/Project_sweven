@@ -48,54 +48,54 @@
                                     $consulta = mysqli_query($conexion, "SELECT   b.id_banco, u.nombre_usuario, u.apellidos, b.nom_banco, b.num_cuenta, b.clabe_interbancaria, FORMAT(b.sueldo_neto_mensual, 2) AS sueldo_formateado  , b.solicitud_tarj_nominal  FROM tbl_bancarios b JOIN usuarios u ON b.id_usuario = u.id_usuario;");
                                     while ($row = mysqli_fetch_assoc($consulta)) {
                                     ?>
-                                    <tr>
-                                        <td id="id"><?php echo $row["id_banco"] ?></td>
-                                        <td id="telefono"><?php echo $row["nombre_usuario"] ?></td>
-                                        <td id="contraseña">
-                                            <?php echo $row["apellidos"] ?>
-                                        </td>
-                                        <td id="nombre"><?php echo $row["nom_banco"] ?></td>
-                                        <td id="apellidos"><?php echo $row["num_cuenta"] ?></td>
-                                        <td id="email"><?php echo $row["clabe_interbancaria"] ?></td>
-                                        <td id="email">$ <?php echo $row["sueldo_formateado"] ?></td>
-                                        <td id="fecha_nacimiento">
-                                            <?php echo $row["solicitud_tarj_nominal"] ?>
-                                        </td>
+                                        <tr>
+                                            <td id="id"><?php echo $row["id_banco"] ?></td>
+                                            <td id="telefono"><?php echo $row["nombre_usuario"] ?></td>
+                                            <td id="contraseña">
+                                                <?php echo $row["apellidos"] ?>
+                                            </td>
+                                            <td id="nombre"><?php echo $row["nom_banco"] ?></td>
+                                            <td id="apellidos"><?php echo $row["num_cuenta"] ?></td>
+                                            <td id="email"><?php echo $row["clabe_interbancaria"] ?></td>
+                                            <td id="email">$ <?php echo $row["sueldo_formateado"] ?></td>
+                                            <td id="fecha_nacimiento">
+                                                <?php echo $row["solicitud_tarj_nominal"] ?>
+                                            </td>
 
 
 
 
-                                        <td>
-                                            <div style="display: flex;" class="btn-action">
+                                            <td>
                                                 <div style="display: flex;" class="btn-action">
-                                                    <!-- Botón de eliminar con icono -->
-                                                    <form action="../../../controllers/eliminarBancaController.php"
-                                                        method="POST"
-                                                        onsubmit="return confirm('¿Estás seguro de eliminar los datos bancarios de   <?php echo $row['nombre_usuario']; ?> ? ')">
-                                                        <input type="hidden" name="id_banco"
-                                                            value="<?php echo $row['id_banco']; ?>">
-                                                        <button class="btn btn-danger btn-icon" type="submit"
-                                                            title="Eliminar Cargo">
-                                                            <i class="fas fa-trash-alt"></i>
-                                                            <!-- Icono de Font Awesome -->
-                                                        </button>
-                                                    </form>
-                                                </div>
-                                                <button style="display: flex;
+                                                    <div style="display: flex;" class="btn-action">
+                                                        <!-- Botón de eliminar con icono -->
+                                                        <form action="../../../controllers/eliminarBancaController.php"
+                                                            method="POST"
+                                                            onsubmit="return confirm('¿Estás seguro de eliminar los datos bancarios de   <?php echo $row['nombre_usuario']; ?> ? ')">
+                                                            <input type="hidden" name="id_banco"
+                                                                value="<?php echo $row['id_banco']; ?>">
+                                                            <button class="btn btn-danger btn-icon" type="submit"
+                                                                title="Eliminar Cargo">
+                                                                <i class="fas fa-trash-alt"></i>
+                                                                <!-- Icono de Font Awesome -->
+                                                            </button>
+                                                        </form>
+                                                    </div>
+                                                    <button style="display: flex;
 justify-content: center;
 align-items: center;" class="btn bg-warning btneditar" type="submit" data-bs-toggle="modal"
-                                                    data-bs-target="#staticBackdrop"><img src="" alt=""> <img
-                                                        style="width: 15px;" src="../../../asset/boton-editar.png"
-                                                        alt=""></button>
-                                                <button style="display: flex;
+                                                        data-bs-target="#staticBackdrop"><img src="" alt=""> <img
+                                                            style="width: 15px;" src="../../../asset/boton-editar.png"
+                                                            alt=""></button>
+                                                    <button style="display: flex;
 justify-content: center;
 align-items: center;" class="btn btn-danger"><img style="width: 15px;" src="../../../asset/borrar.png" alt=""></button>
-                                            </div>
+                                                </div>
 
-                                        </td>
+                                            </td>
 
 
-                                    </tr>
+                                        </tr>
                                     <?php } ?>
                                 </tbody>
                                 <tfoot>
@@ -149,17 +149,16 @@ align-items: center;" class="btn btn-danger"><img style="width: 15px;" src="../.
 
                         <div class="col-12">
                             <div class="form-group">
-                                <label>SELECCIONE USUARIO</label>
+                                <label for="id_usuario">SELECCIONE USUARIO</label>
                                 <select class="form-control select2bs4" id="id_usuario" name="id_usuario"
                                     style="width: 100%;">
-                                    <option selected="selected">Nombre del usuario</option>
+                                    <option value="" selected="selected">Seleccione un usuario</option>
                                     <?php
-                                    $consulta = mysqli_query($conexion, "SELECT id_usuario, nombre_usuario, apellidos  FROM usuarios;");
+                                    $consulta = mysqli_query($conexion, "SELECT id_usuario, nombre_usuario, apellidos FROM usuarios;");
                                     while ($row = mysqli_fetch_assoc($consulta)) {
-                                        echo "<option value='" . $row['id_usuario'] . "'>" . $row['nombre_usuario'] .  ' ' .  $row['apellidos'] .  "</option>"
+                                        echo "<option value='{$row['id_usuario']}'>" . htmlspecialchars($row['nombre_usuario'] . ' ' . $row['apellidos']) . "</option>";
+                                    }
                                     ?>
-
-                                    <?php } ?>
                                 </select>
                             </div>
                         </div>
@@ -221,46 +220,46 @@ align-items: center;" class="btn btn-danger"><img style="width: 15px;" src="../.
 
 
 <script>
-$(document).ready(function() {
-    // Inicializa el select2 con configuración de búsqueda en tiempo real
-    $('#id_usuario_search').select2({
-        placeholder: 'Buscar usuario...',
-        allowClear: true, // Opción para limpiar el campo
-        minimumInputLength: 1, // Mínimo 1 carácter para empezar la búsqueda
-        ajax: {
-            url: 'buscar_usuarios.php', // Ruta al archivo PHP para la búsqueda
-            dataType: 'json',
-            delay: 300, // 300ms de retraso para evitar solicitudes en cada tecla
-            data: function(params) {
-                return {
-                    q: params.term // El término de búsqueda que el usuario escribe
-                };
-            },
-            processResults: function(data) {
-                return {
-                    results: data.map(function(item) {
-                        return {
-                            id: item.id_usuario,
-                            text: item.nombre_usuario + ' ' + item.apellidos
-                        };
-                    })
-                };
-            },
-            cache: true // Habilita caché para las búsquedas previas
-        }
+    $(document).ready(function() {
+        // Inicializa el select2 con configuración de búsqueda en tiempo real
+        $('#id_usuario_search').select2({
+            placeholder: 'Buscar usuario...',
+            allowClear: true, // Opción para limpiar el campo
+            minimumInputLength: 1, // Mínimo 1 carácter para empezar la búsqueda
+            ajax: {
+                url: 'buscar_usuarios.php', // Ruta al archivo PHP para la búsqueda
+                dataType: 'json',
+                delay: 300, // 300ms de retraso para evitar solicitudes en cada tecla
+                data: function(params) {
+                    return {
+                        q: params.term // El término de búsqueda que el usuario escribe
+                    };
+                },
+                processResults: function(data) {
+                    return {
+                        results: data.map(function(item) {
+                            return {
+                                id: item.id_usuario,
+                                text: item.nombre_usuario + ' ' + item.apellidos
+                            };
+                        })
+                    };
+                },
+                cache: true // Habilita caché para las búsquedas previas
+            }
+        });
     });
-});
 </script>
 
 <script>
-function validarInput(event) {
-    const input = event.target;
-    const valor = input
-        .value;
-    if (!/^\d{0,18}$/.test(valor)) {
-        input.value = valor.slice(0, -1);
+    function validarInput(event) {
+        const input = event.target;
+        const valor = input
+            .value;
+        if (!/^\d{0,18}$/.test(valor)) {
+            input.value = valor.slice(0, -1);
+        }
     }
-}
 </script>
 
 

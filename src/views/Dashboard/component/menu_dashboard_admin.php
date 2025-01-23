@@ -52,7 +52,13 @@
                          <li class="nav-item">
                              <a href="../Administrador/lista_usuarios.php" class="nav-link active menu-item">
                                  <i class="far fa-circle nav-icon"></i>
-                                 <p>Lista Usuarios</p>
+                                 <p>Configuración Cuentas</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="../Administrador/lista_datos_usuarios.php" class="nav-link menu-item">
+                                 <i class="far fa-circle nav-icon"></i>
+                                 <p>Perfiles Usuarios</p>
                              </a>
                          </li>
                          <li class="nav-item">
@@ -65,6 +71,12 @@
                              <a href="../Administrador/lista_documentacion.php" class="nav-link menu-item">
                                  <i class="far fa-circle nav-icon"></i>
                                  <p>Lista Documentacion</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="../Administrador/panel_control.php" class="nav-link menu-item">
+                                 <i class="far fa-circle nav-icon"></i>
+                                 <p>Panel de Control</p>
                              </a>
                          </li>
                      </ul>
@@ -110,6 +122,12 @@
                                  <p>Cargos</p>
                              </a>
                          </li>
+                         <li class="nav-item">
+                             <a href="../Administrador/lista_dias_laborales.php" class="nav-link active menu-item">
+                                 <i class="far fa-circle nav-icon"></i>
+                                 <p>Días laborales</p>
+                             </a>
+                         </li>
 
                      </ul>
                  </li>
@@ -123,3 +141,8 @@
  </aside>
 
  <!-- Content Wrapper. Contains page content -->
+
+
+ <script>
+
+ </script>
