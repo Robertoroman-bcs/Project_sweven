@@ -1,5 +1,5 @@
 <?php require("../component/heade_dashboard.php"); ?>
-<?php require("../component/menu_dashboard_mandomedio.php"); ?>
+<?php require("../component/menu_dashboard_rh.php"); ?>
 <?php require("../component/header_page.php"); ?>
 
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
@@ -9,12 +9,10 @@
         var calendar = new FullCalendar.Calendar(calendarEl, {
             initialView: 'dayGridMonth',
             locale: 'es',
-            selectable: true,
+            selectable: false,
             events: '../../../controllers/cargarAsistenciasController.php',
-            validRange: {
-                start: new Date().toISOString().split('T')[0]
-            },
-            dateClick: function(info) {
+
+            /*dateClick: function(info) {
                 // Obtener la fecha seleccionada
                 var selectedDate = info.dateStr;
                 document.getElementById('selected-date').innerHTML = selectedDate;
@@ -58,9 +56,73 @@
                 myModal.show();
 
 
+            },*/
+        });
+
+
+
+
+        var calendarDeRh = document.getElementById('calendarRh');
+        var calendar_rh = new FullCalendar.Calendar(calendarDeRh, {
+            initialView: 'dayGridMonth',
+            locale: 'es',
+            selectable: true,
+            events: '../../../controllers/cargarAsistenciasController.php',
+
+            dateClick: function(info) {
+                // Obtener la fecha seleccionada
+                var selectedDate = info.dateStr;
+                document.getElementById('selected-date').innerHTML = selectedDate;
+
+
+                // Cargar empleados desde la base de datos
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "../../../controllers/cargarEmpleadosController.php", true);
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                        var empleados = JSON.parse(xhr.responseText);
+                        var empleadosList = document.getElementById('empleadosList');
+                        empleadosList.innerHTML = ''; // Limpiar la lista
+
+                        // Crear checkbox para cada empleado
+                        empleados.forEach(function(empleado) {
+                            var div = document.createElement('div');
+                            div.classList.add('form-check');
+                            div.innerHTML = `
+                                <input class="form-check-input" type="checkbox" id="empleado_${empleado.id_usuario}" value="${empleado.id_usuario}">
+                                <label class="form-check-label" for="empleado_${empleado.id_usuario}">
+                                    ${empleado.nombre_usuario}
+                                </label>
+                            `;
+                            empleadosList.appendChild(div);
+                        });
+
+                        // Mostrar el modal
+                        var myModal = new bootstrap.Modal(document.getElementById(
+                            'modalAsistencia'));
+                        myModal.show();
+                    }
+                };
+                xhr.send();
+
+                // Mostrar la fecha en el modal
+
+
+                // Mostrar el modal de Bootstrap
+                var myModal = new bootstrap.Modal(document.getElementById('modal_asistencia_usuario'));
+                myModal.show();
+
+
             },
         });
+
+
+
+
+
+
         calendar.render();
+        calendar_rh.render();
         // Guardar las asistencias
         document.getElementById('guardarAsistencias').addEventListener('click', function() {
             var fecha = document.getElementById('selected-date');
@@ -119,7 +181,7 @@
                             <li class="nav-item">
                                 <a class="nav-link active" id="custom-tabs-two-home-tab" data-toggle="pill"
                                     href="#custom-tabs-two-home" role="tab" aria-controls="custom-tabs-two-home"
-                                    aria-selected="true">Registro de asistencia del área</a>
+                                    aria-selected="true">Registro de asistencia corporativo</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="custom-tabs-two-profile-tab" data-toggle="pill"
@@ -129,7 +191,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" id="custom-tabs-two-messages-tab" data-toggle="pill"
                                     href="#custom-tabs-two-messages" role="tab" aria-controls="custom-tabs-two-messages"
-                                    aria-selected="false">Mis Documentos</a>
+                                    aria-selected="false">Registro de asistencia del área</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="custom-tabs-two-settings-tab" data-toggle="pill"
@@ -251,6 +313,7 @@ ORDER BY af.fecha DESC;");
                             </div>
                             <div class="tab-pane fade" id="custom-tabs-two-messages" role="tabpanel"
                                 aria-labelledby="custom-tabs-two-messages-tab">
+                                <div id='calendarRh'></div>
 
                             </div>
                             <div class="tab-pane fade" id="custom-tabs-two-settings" role="tabpanel"

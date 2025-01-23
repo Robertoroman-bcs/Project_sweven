@@ -55,15 +55,21 @@
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a href="../Rh/lista_usuarios.php" class="nav-link menu-item">
+                             <a href="../Rh/lista_bancaria.php" class="nav-link menu-item">
                                  <i class="far fa-circle nav-icon"></i>
                                  <p>Lista bancario</p>
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a href="../Rh/lista_usuarios.php" class="nav-link menu-item">
+                             <a href="../Rh/lista_documentos.php" class="nav-link menu-item">
                                  <i class="far fa-circle nav-icon"></i>
                                  <p>Lista Documentacion</p>
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="../Rh/panel_control_rh.php" class="nav-link menu-item">
+                                 <i class="far fa-circle nav-icon"></i>
+                                 <p>Panel Control</p>
                              </a>
                          </li>
                      </ul>

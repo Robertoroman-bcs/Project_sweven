@@ -55,13 +55,13 @@
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a href="../Mando_medio/lista_usuarios.php" class="nav-link menu-item">
+                             <a href="../Mando_medio/lista_bancaria.php" class="nav-link menu-item">
                                  <i class="far fa-circle nav-icon"></i>
                                  <p>Lista bancario</p>
                              </a>
                          </li>
                          <li class="nav-item">
-                             <a href="../Mando_medio/lista_usuarios.php" class="nav-link menu-item">
+                             <a href="../Mando_medio/lista_documentos.php" class="nav-link menu-item">
                                  <i class="far fa-circle nav-icon"></i>
                                  <p>Lista Documentacion</p>
                              </a>

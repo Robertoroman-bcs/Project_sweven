@@ -23,8 +23,6 @@
                             <?php $consulta = mysqli_query($conexion, "SELECT CASE WHEN DATEDIFF(CURDATE(), dg.fecha_ingreso) >= 365 THEN 'Habilitar' ELSE 'Deshabilitar' END AS estado_boton FROM usuarios u JOIN datos_generales_usuarios dg ON u.id_usuario = dg.id_usuario WHERE u.id_usuario = $id_user;");
                             $estado_boton = '';
                             if ($consulta->num_rows > 0) {
-                                //$row = $result->fetch_assoc();
-                                //     SELECT CASE WHEN DATEDIFF(CURDATE(), fecha_creacion_usuario) >= 365 THEN 'Habilitar' ELSE 'Deshabilitar' END AS estado_boton FROM usuarios WHERE id_usuario = $id_user;
                                 $row = mysqli_fetch_assoc($consulta);
                                 $estado_boton = $row['estado_boton'];
                             } else {
