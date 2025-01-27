@@ -13,7 +13,7 @@ header("Pragma: no-cache");
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link rel="icon" type="image/png" href="../assets/logos/SWEVEN-ADVISOR.png" />
+    <link rel="icon" type="image/png" href="../../assets/img/img_pg/SWEVEN-ADVISOR_ColorNegro.png" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../../assets/login/css/bootstrap.min.css" />
     <!-- FontAwesome CSS -->
@@ -25,7 +25,7 @@ header("Pragma: no-cache");
 <body>
     <div class="uf-form-signin">
         <div class="text-center">
-            <a href="#"><img src="../../assets/logos/SWEVEN-ADVISOR.png" alt="" width="100" height="100" /></a>
+            <a href="#"><img src="../../assets/img/img_pg/SWEVEN-ADVISOR.png" alt="" width="100" height="100" /></a>
             <h1 class="text-white h3">Iniciar Sesión</h1>
         </div>
 
@@ -60,16 +60,7 @@ header("Pragma: no-cache");
                     Iniciar Sesión
                 </button>
             </div>
-            <div class="d-flex mb-3">
-                <div class="dropdown-divider m-auto w-25"></div>
-                <small class="text-nowrap text-white">No tienes cuenta?</small>
-                <div class="dropdown-divider m-auto w-25"></div>
-            </div>
 
-            <div class="mt-4 text-center">
-                <span class="text-white">Regístrate</span>
-                <a href="register.php"> Aquí</a>
-            </div>
         </form>
     </div>
 

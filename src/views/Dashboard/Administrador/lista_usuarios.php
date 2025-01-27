@@ -103,18 +103,35 @@
                                                         </form>
                                                     </div>
                                                     <div style="display: flex;" class="btn-action">
-                                                        <!-- Botón de eliminar con icono -->
-                                                        <form action="../../../controllers/eliminarUsuarioController.php"
-                                                            method="POST"
-                                                            onsubmit="return confirm('¿Estás seguro de eliminar a este Usuario?')">
-                                                            <input type="hidden" name="id_usuario"
-                                                                value="<?php echo $row['id_usuario']; ?>">
-                                                            <button class="btn btn-info btn-icon" type="submit"
-                                                                title="Eliminar Usuario">
-                                                                <i class="far fa-edit"></i>
-                                                                <!-- Icono de Font Awesome -->
-                                                            </button>
-                                                        </form>
+                                                        <button class="openModalBtn btn-warning" style="display: flex;
+justify-content: center;
+align-items: center;" class="btn bg-primary btneditar" type="submit" data-toggle="modal"
+                                                            data-target="#modal_actualizar_usuario"
+                                                            data-id="<?php echo $row["id_usuario"] ?>">
+                                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                                                width="34" height="34" fill="none">
+                                                                <style>
+                                                                    @keyframes rotate-center {
+                                                                        0% {
+                                                                            transform: rotate(0)
+                                                                        }
+
+                                                                        to {
+                                                                            transform: rotate(360deg)
+                                                                        }
+                                                                    }
+                                                                </style>
+                                                                <g style="animation:rotate-center 1.5s ease-in-out infinite both;transform-origin:center center"
+                                                                    stroke-width="1.5">
+                                                                    <path stroke="#0A0A30" stroke-linecap="round"
+                                                                        d="M6.883 11.778a5 5 0 018.473-3.597m1.761 4.131a5 5 0 01-8.473 3.597" />
+                                                                    <path fill="#265BFF" stroke="#265BFF"
+                                                                        d="M17.078 10.145l-2.308-.347a.066.066 0 01-.018-.005.026.026 0 01-.007-.005.056.056 0 01-.015-.024.056.056 0 01-.002-.03l.003-.007a.069.069 0 01.012-.015l1.995-1.964a.064.064 0 01.015-.012.028.028 0 01.007-.003.056.056 0 01.029.003c.012.004.02.01.024.015a.03.03 0 01.005.007.069.069 0 01.004.019l.313 2.312a.046.046 0 01-.015.042.045.045 0 01-.043.014zm-10.156 3.8l2.308.348.018.005a.03.03 0 01.007.005c.004.003.01.011.015.024a.056.056 0 01.002.029.027.027 0 01-.003.007.065.065 0 01-.012.015l-1.995 1.965a.072.072 0 01-.015.012.03.03 0 01-.007.003.056.056 0 01-.029-.003.057.057 0 01-.024-.016.028.028 0 01-.005-.006.066.066 0 01-.004-.019l-.313-2.312a.046.046 0 01.002-.023.053.053 0 01.013-.02.052.052 0 01.02-.012.046.046 0 01.022-.002z" />
+                                                                </g>
+                                                            </svg>
+
+                                                        </button>
+
                                                     </div>
                                                     <div style="display: flex;">
                                                         <button id="eliminarUser" type="button"
@@ -263,6 +280,8 @@
                                 <input type="text" id="confirmar_contraseña" name="confirmar_contraseña"
                                     class="form-control" required>
                             </div>
+                            <!-- Contenedor del mensaje de error -->
+                            <p id="errorMensaje" style="color: red; display: none;">Las contraseñas no coinciden.</p>
                         </div>
                         <div class="col-12">
                             <div class="form-group mb-3">
@@ -317,7 +336,7 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal"
                             aria-label="Close">Cerrar</button>
-                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <button type="submit" class="btn btn-primary" id="btn_guardar_users">Guardar</button>
                     </div>
 
                 </form>
@@ -325,6 +344,172 @@
         </div>
     </div>
 </div>
+
+
+
+<!-- Modal ACTUALIZAR USUARIOS -->
+<div class="modal fade" id="modal_actualizar_usuario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Actualizar Usuario</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="updateForm">
+                    <div class="row shadow p-3 mb-5 bg-white rounded">
+                        <div class="col-12">
+                            <div class="mb-3">
+
+                                <input type="" class="form-control" name="id_usu" id="id_usu" required>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label for="Titulo" class="form-label">NOMBRE:</label>
+                                <input type="text" id="nom_usu" name="nom_usu" class="form-control"
+                                    oninput="convertirAMayusculas(event)" required>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label for="Titulo" class="form-label">APELLIDOS:</label>
+                                <input type="text" id="apellido_usu" name="apellido_usu" class="form-control"
+                                    oninput="convertirAMayusculas(event)" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="Titulo" class="form-label">E-MAIL:</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                </div>
+                                <input type="email" id="email_usu" name="email_usu" class="form-control"
+                                    placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <!--<div class="mb-3">
+                                <label for="Titulo" class="form-label">FECHA DE NACIMIENTO</label>
+                                <input type="text" id="fecha_nacimiento" name="fecha_nacimiento" class="form-control"
+                                    required>
+                            </div>-->
+                            <div class="form-group mb-3">
+                                <label>FECHA DE NACIMIENTO:</label>
+
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="fecha_nacimiento_usu"
+                                        name="fecha_nacimiento_usu" data-inputmask-alias="datetime"
+                                        data-inputmask-inputformat="dd/mm/yyyy" data-mask />
+                                </div>
+                                <!-- /.input group -->
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group mb-3">
+                                <label>TELEFONO:</label>
+
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" id="telefono_usu" name="telefono_usu"
+                                        data-inputmask='"mask": "(999) 999-9999"' data-mask />
+                                </div>
+                                <!-- /.input group -->
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label for="Titulo" class="form-label">CONTRASEÑA:</label>
+                                <input type="text" id="contraseña_usu" name="contraseña_usu" class="form-control"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label for="Titulo" class="form-label">CONFIRMAR CONTRASEÑA:</label>
+                                <input type="text" id="confirmar_contraseña_usu" name="confirmar_contraseña"
+                                    class="form-control" required>
+                            </div>
+                            <!-- Contenedor del mensaje de error -->
+                            <p id="errorMensaje" style="color: red; display: none;">Las contraseñas no coinciden.</p>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group mb-3">
+                                <label for="Titulo" class="form-label">DESIGNACIÓN DE ROL:</label>
+                                <select class="form-control" id="rol_id_usu" name="rol_id_usu" required>
+                                    <option value="">Tipo de Rol</option>
+                                    <?php
+                                    $consulta = mysqli_query($conexion, "SELECT id_rol, nombre_rol  FROM roles;");
+                                    while ($row = mysqli_fetch_assoc($consulta)) {
+                                        echo "<option value='" . $row['id_rol'] . "'>" . $row['nombre_rol'] . "</option>"
+                                    ?>
+
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group mb-3">
+                                <label for="Titulo" class="form-label">DESIGNACIÓN DE CARGO:</label>
+                                <select class="form-control" id="id_cargo_usu" name="id_cargo_usu" required>
+                                    <option value="">Cargo</option>
+                                    <?php
+                                    $consulta = mysqli_query($conexion, "SELECT id_cargo, nombre  FROM cargos;");
+                                    while ($row = mysqli_fetch_assoc($consulta)) {
+                                        echo "<option value='" . $row['id_cargo'] . "'>" . $row['nombre'] . "</option>"
+                                    ?>
+
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group mb-3">
+                                <label for="Titulo" class="form-label">DESIGNACIÓN DE ÁREA:</label>
+                                <select class="form-control" id="id_area_usu" name="id_area_usu" required>
+                                    <option value="">Área</option>
+                                    <?php
+                                    $consulta = mysqli_query($conexion, "SELECT id_area, nombre  FROM areas;");
+                                    while ($row = mysqli_fetch_assoc($consulta)) {
+                                        echo "<option value='" . $row['id_area'] . "'>" . $row['nombre'] . "</option>"
+                                    ?>
+
+                                    <?php } ?>
+                                </select>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                            aria-label="Close">Cerrar</button>
+                        <button type="submit" class="btn btn-primary" id="btn_guardar_users">Actualizar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
 
 
 
@@ -532,6 +717,88 @@
     function convertirAMayusculas(event) {
         const input = event.target;
         input.value = input.value.toUpperCase();
+    }
+
+
+    const contraseña = document.getElementById('contraseña');
+    const confirmarContraseña = document.getElementById('confirmar_contraseña');
+    const mensajeError = document.getElementById('errorMensaje');
+    const btncrearuser = document.getElementById('btn_guardar_users');
+
+    function validarContraseñas() {
+        const valorContraseña = contraseña.value.trim();
+        const valorConfirmar = confirmarContraseña.value.trim();
+
+        // Si ambos campos están vacíos, ocultar el mensaje de error
+        if (valorContraseña === '' && valorConfirmar === '') {
+            mensajeError.style.display = 'none';
+            return;
+        } else if (valorContraseña !== '' && valorConfirmar === '') {
+            mensajeError.style.display = 'none';
+            return;
+
+        }
+
+        // Mostrar error si las contraseñas no coinciden
+        if (valorContraseña !== valorConfirmar) {
+            mensajeError.style.display = 'block';
+            mensajeError.textContent = 'Las contraseñas no coinciden.';
+            btncrearuser.disabled = true;
+        } else {
+            mensajeError.style.display = 'none'; // Ocultar mensaje si coinciden
+            btncrearuser.disabled = false;
+        }
+    }
+
+    // Validar en tiempo real en ambos campos
+    contraseña.addEventListener('input', validarContraseñas);
+    confirmarContraseña.addEventListener('input', validarContraseñas);
+
+
+
+
+
+    const modalButtons = document.querySelectorAll('.openModalBtn');
+
+    // Agregar un evento a cada botón
+    modalButtons.forEach((button) => {
+        button.addEventListener('click', function() {
+            // Obtener el ID del usuario desde el atributo data-id
+            const userId = this.getAttribute('data-id');
+
+
+
+            // Llamar a la función para cargar los datos en el formulario
+            loadFormData(userId);
+        });
+    });
+
+    async function loadFormData(idUsuario) {
+        try {
+            const response = await fetch(`../../../controllers/cargarUsuariosController.php?id_usuario=${idUsuario}`);
+            const result = await response.json();
+
+            if (result.success) {
+                const data = result.data;
+
+                console.log(data);
+                document.getElementById('id_usu').value = idUsuario || '';
+                document.getElementById('nom_usu').value = data.nombre_usuario || '';
+                document.getElementById('apellido_usu').value = data.apellidos || '';
+                document.getElementById('email_usu').value = data.email || '';
+                document.getElementById('fecha_nacimiento_usu').value = data.fecha_nacimiento || '';
+                document.getElementById('telefono_usu').value = data.telefono || '';
+                document.getElementById('contraseña_usu').value = data.contraseña || '';
+                document.getElementById('rol_id_usu').value = data.id_rol || '';
+                document.getElementById('rol_id_usu').value = data.id_rol || '';
+                document.getElementById('id_cargo_usu').value = data.id_cargo || '';
+                document.getElementById('id_area_usu').value = data.id_area || '';
+            } else {
+                console.error("Error al cargar los datos:", result.message);
+            }
+        } catch (error) {
+            console.error("Error en la solicitud:", error);
+        }
     }
 </script>
 

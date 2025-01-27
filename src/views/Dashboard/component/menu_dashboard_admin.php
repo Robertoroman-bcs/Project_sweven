@@ -128,6 +128,12 @@
                                  <p>Días laborales</p>
                              </a>
                          </li>
+                         <li class="nav-item">
+                             <a href="../Administrador/organigrama_empresa.php" class="nav-link active menu-item">
+                                 <i class="far fa-circle nav-icon"></i>
+                                 <p>Organigrama</p>
+                             </a>
+                         </li>
 
                      </ul>
                  </li>

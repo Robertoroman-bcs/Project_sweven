@@ -1,9 +1,9 @@
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-      <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
-      All rights reserved.
+      <strong>Copyright &copy; 2024-2025 <a href="https://adminlte.io">SWEVEN ADVISOR</a>.</strong>
+
       <div class="float-right d-none d-sm-inline-block">
-          <b>Version</b> 3.2.0
+          <b>Todos los derechos reservados.</b>
       </div>
   </footer>
 
@@ -21,7 +21,7 @@
   <script src="<?php echo $URL ?>/src/public/template/plugins/jquery-ui/jquery-ui.min.js"></script>
   <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
   <script>
-$.widget.bridge('uibutton', $.ui.button)
+      $.widget.bridge('uibutton', $.ui.button)
   </script>
   <!-- Bootstrap 4 -->
   <script src="<?php echo $URL ?>/src/public/template/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -58,12 +58,12 @@ $.widget.bridge('uibutton', $.ui.button)
   <script src="<?php echo $URL ?>/src/public/template/plugins/inputmask/jquery.inputmask.min.js"></script>
 
   <script>
-$('.select2').select2()
+      $('.select2').select2()
 
-//Initialize Select2 Elements
-$('.select2bs4').select2({
-    theme: 'bootstrap4'
-})
+      //Initialize Select2 Elements
+      $('.select2bs4').select2({
+          theme: 'bootstrap4'
+      })
   </script>
   <!-- DataTables  & Plugins -->
   <script src="<?php echo $URL ?>/src/public/template/plugins/datatables/jquery.dataTables.min.js"></script>
@@ -81,80 +81,80 @@ $('.select2bs4').select2({
   <script src="<?php echo $URL ?>/src/public/template/plugins/datatables-buttons/js/buttons.print.min.js"></script>
   <script src="<?php echo $URL ?>/src/public/template/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
   <script>
-$(function() {
-    $("#example1").DataTable({
-        "responsive": true,
-        "lengthChange": false,
-        "autoWidth": false,
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-    $('#example2').DataTable({
-        "paging": true,
-        "lengthChange": false,
-        "searching": false,
-        "ordering": true,
-        "info": true,
-        "autoWidth": false,
-        "responsive": true,
-    });
-    //Datemask dd/mm/yyyy
-    $('#datemask').inputmask('dd/mm/yyyy', {
-        'placeholder': 'dd/mm/yyyy'
-    })
-    //Datemask2 mm/dd/yyyy
-    $('#datemask2').inputmask('mm/dd/yyyy', {
-        'placeholder': 'mm/dd/yyyy'
-    })
-    //Money Euro
-    $('[data-mask]').inputmask()
+      $(function() {
+          $("#example1").DataTable({
+              "responsive": true,
+              "lengthChange": false,
+              "autoWidth": false,
+              "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+          }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+          $('#example2').DataTable({
+              "paging": true,
+              "lengthChange": false,
+              "searching": false,
+              "ordering": true,
+              "info": true,
+              "autoWidth": false,
+              "responsive": true,
+          });
+          //Datemask dd/mm/yyyy
+          $('#datemask').inputmask('dd/mm/yyyy', {
+              'placeholder': 'dd/mm/yyyy'
+          })
+          //Datemask2 mm/dd/yyyy
+          $('#datemask2').inputmask('mm/dd/yyyy', {
+              'placeholder': 'mm/dd/yyyy'
+          })
+          //Money Euro
+          $('[data-mask]').inputmask()
 
-    //Date picker
-    $('#reservationdate').datetimepicker({
-        format: 'L'
-    });
+          //Date picker
+          $('#reservationdate').datetimepicker({
+              format: 'L'
+          });
 
-    //Date and time picker
-    $('#reservationdatetime').datetimepicker({
-        icons: {
-            time: 'far fa-clock'
-        }
-    });
+          //Date and time picker
+          $('#reservationdatetime').datetimepicker({
+              icons: {
+                  time: 'far fa-clock'
+              }
+          });
 
-    //Date range picker
-    $('#reservation').daterangepicker()
-    //Date range picker with time picker
-    $('#reservationtime').daterangepicker({
-        timePicker: true,
-        timePickerIncrement: 30,
-        locale: {
-            format: 'MM/DD/YYYY hh:mm A'
-        }
-    })
-    //Date range as a button
-    $('#daterange-btn').daterangepicker({
-            ranges: {
-                'Today': [moment(), moment()],
-                'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-                'Last 7 Days': [moment().subtract(6, 'days'), moment()],
-                'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-                'This Month': [moment().startOf('month'), moment().endOf('month')],
-                'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month')
-                    .endOf('month')
-                ]
-            },
-            startDate: moment().subtract(29, 'days'),
-            endDate: moment()
-        },
-        function(start, end) {
-            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
-        }
-    )
+          //Date range picker
+          $('#reservation').daterangepicker()
+          //Date range picker with time picker
+          $('#reservationtime').daterangepicker({
+              timePicker: true,
+              timePickerIncrement: 30,
+              locale: {
+                  format: 'MM/DD/YYYY hh:mm A'
+              }
+          })
+          //Date range as a button
+          $('#daterange-btn').daterangepicker({
+                  ranges: {
+                      'Today': [moment(), moment()],
+                      'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                      'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+                      'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                      'This Month': [moment().startOf('month'), moment().endOf('month')],
+                      'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month')
+                          .endOf('month')
+                      ]
+                  },
+                  startDate: moment().subtract(29, 'days'),
+                  endDate: moment()
+              },
+              function(start, end) {
+                  $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
+              }
+          )
 
-    //Timepicker
-    $('#timepicker').datetimepicker({
-        format: 'LT'
-    })
-});
+          //Timepicker
+          $('#timepicker').datetimepicker({
+              format: 'LT'
+          })
+      });
   </script>
   <script>
 
