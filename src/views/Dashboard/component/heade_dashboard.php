@@ -67,7 +67,7 @@
 
         <!-- Preloader -->
         <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__shake" src="../../../../assets/logos/SWEVEN-ADVISOR_ColorNegro.png"
+            <img class="animation__shake" src="../../../../assets/img/img_pg/SWEVEN-ADVISOR_ColorNegro.png"
                 alt="SWEVEN-ADVISOR" height="320" width="320">
         </div>
 

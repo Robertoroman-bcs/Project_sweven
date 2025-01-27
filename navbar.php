@@ -24,7 +24,6 @@
             </div>
         </li>
         <li><a href="./nosotros.php">Nosotros</a></li>
-        <li><a href="./contactanos.php">Contáctenos</a></li>
         <li><a href="./contactanos.php">Contacto</a></li>
         <li><a href="./src/login/login.php">Iniciar Sesión</a></li>
     </ul>
